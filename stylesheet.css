@@ -36,7 +36,7 @@ main {
 }
 
 .about-section {
-   padding: 0 300px;
+   padding: 0 50px;
    font-size: 1.5em;
    line-height: 1.2em;
 }
@@ -59,4 +59,46 @@ main {
    padding: 30px 20px;
    width: 90%;
    margin: 20px auto;
+}
+
+.project-title {
+   margin-top: 0;
+   font-size: 1.3em;  
+}
+
+iframe, .project-image {
+   width: 100%;
+}
+
+.website-link {
+   color: #BBDEFB;
+   cursor: pointer;
+   text-decoration: none;
+}
+
+.project-links {
+   text-align: center;
+   margin-top: 10px;
+}
+
+.project-links a {
+   margin: 10px;
+   font-size: 1.2em;
+}
+
+.project-description {
+   margin-top: 10px;
+}
+
+.technologies-list {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+}
+
+.technologies-list li{
+   margin: 5px 0;
+}
+
+.notable-features li {
+   margin: 8px 0;
 }
