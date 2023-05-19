@@ -6,8 +6,15 @@ body {
    font-family: 'manjari', sans-serif;
 }
 
+/* desktop nav */
+#desktop-nav {
+   display: none;
+}
+
+
 /* mobile-nav */
 .left-logo {
+   font-family: 'Raleway';
    margin-left: 25px;
 }
 
@@ -24,7 +31,7 @@ body {
 }
 
 main {
-   margin-top: 100px;
+   margin-top: 80px;
 }
 
 /* about section */
@@ -57,7 +64,7 @@ main {
    box-shadow: 0px 2px 4px rgba(0,0,0,0.18);
    color: #D5D8DC;
    padding: 30px 20px;
-   width: 90%;
+   width: 85%;
    margin: 20px auto;
 }
 
@@ -101,4 +108,62 @@ iframe, .project-image {
 
 .notable-features li {
    margin: 8px 0;
+}
+
+@media screen and (min-width: 700 px) {
+   #mobile-nav, .mobile-icon-container {
+      display: none;
+   }
+
+   #desktop-nav {
+      display: flex;
+      background-color: #232526;
+      justify-content: space-between;
+      color: #aaa;
+   }
+
+   .about-content {
+      padding: 0 20%;
+   }
+
+   .project-card {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 15px;
+   }
+
+   .project-title {
+      margin-bottom: 0;
+      position: relative;
+      bottom: 15px;
+   }
+
+   .project-right-container {
+      margin-top: 5px;
+   }
+ 
+   
+   @media screen and (min-width: 1100px) {
+      .about-content {
+         padding: 0 25%;
+      }
+
+      .project-card {
+         width: 60%;
+      }
+   }
+
+
+
+
+   /* .desktop-icon-container {
+      margin-top: 15px;
+   }
+
+   desktop-icon-container a {
+      margin: 0 10px;
+      font-size: 1.2em;
+      color: #aaa;
+      text-decoration: none;
+   } */
 }
