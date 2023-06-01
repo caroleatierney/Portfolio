@@ -1,3 +1,7 @@
+
+Neil's video: https://www.youtube.com/watch?v=OJFpbZAngXQ
+Neil's Code Pen: https://codepen.io/npatel023/pen/YzKQZjP?editors=1111
+
 to do:
 
 get castle rock to work
@@ -22,10 +26,11 @@ each section is not showing side by side in desktop mode
 
 merge with main?
 
-
-rewatch whole tutorial
-
 At end
 
 Neil was on master and did 
 npm init?
+
+use icons or checklist and not bullet points
+
+put code in codepen
