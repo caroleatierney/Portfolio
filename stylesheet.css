@@ -19,7 +19,7 @@ body {
 
 .mobile-icon-container {
    display: flex;
-   justify-content: center;
+   justify-content: space-between;
 }
 
 .mobile-icon-container a {
@@ -27,10 +27,14 @@ body {
    font-size: 1.2em;
    text-decoration: none;
    color: #444;
+   justify-content: space-between;
 }
 
 .desktop-icon-container {
    margin-top: 20px;
+   padding: 20px;
+   display: flex;
+   justify-content: space-between;
 }
 
 desktop-icon-container a {
@@ -38,6 +42,7 @@ desktop-icon-container a {
    font-size: 1.2em;
    color: #aaa;
    text-decoration: none;
+   padding: 20px;
 } 
 
 main {
@@ -130,6 +135,10 @@ main {
       background-color: #232526;
       justify-content: space-between;
       color: #aaa;
+   }
+
+   nav {
+      margin-top: 20px;
    }
 
    .about-content {
