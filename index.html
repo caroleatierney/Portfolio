@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Carole Tierney - Web Developer</title>
     <link href="stylesheet.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&family=Raleway:wght@100&display=swap" rel="stylesheet">   
 </head>
 
@@ -38,34 +39,42 @@
 <!-- code pen -->
 
 <body>
+    <!- - - - - - - - - - - - Mobile - - - - - - - - - - - ->
     <nav id="mobile-nav">
         <h2 class="left-logo">Carole Tierney</h2>
-        <!-- <titleTest class="what" </titleTest>= src="dist/Assets/CastleRockReview.jpeg">KKK</titleTest> -->
-    </nav>
-
-    <nav id="desktop-nav">
-        <h2 class="left-logo">Carole Tierney</h2>
-
-        <nav>
-            <a class = "navLinks" href="about.html">About me</a>
-            <a class = "navLinks" href="projects.html">Projects</a>
-            <!-- <a class = "navLinks" href="contact.html">Contact me</a> -->
-            <!-- <a class = "navLinks" href="codingChallenges">Coding Challenges</a> -->
-        </nav>
-
-        <section class="desktop-icon-container">
-            <a title="Contact Me" href="https://www.linkedin.com" class="contact-icon" style="color: white" target="_blank"><i class="fab fa-linkedin"></i></a>
-            <a title="View GitHub" href="https://www.github.com" class="contact-icon" style="color: white" target="_blank"><i class="fab fa-github"></i></a>
-            <a title="View Resume" target="_blank" href="/dist/Assets/Resume2023.pdf" style="color: white" class="contact-icon">Resume</a>
-        </section>
     </nav>
 
     <section class="mobile-icon-container">
-        <a title="Contact Me" href="https://www.linkedin.com" class="contact-icon" target="_blank"><i class="fab fa-linkedin" style="color: white"></i></a>
-        <a title="View GitHub" href="https://www.github.com" class="contact-icon"  style="color: white"target="_blank"><i class="fab fa-github"></i></a>
-        <a title="View Resume" target="_blank" href="dist/Assets/Resume 2023.pdf" style="color: white" class="contact-icon">Resume</a>
+        <a title="Contact Me" href="https://www.linkedin.com" class="contact-icon" style="color: white" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+        <a title="View GitHub" href="https://www.github.com" class="contact-icon" style="color: white" target="_blank"><i
+                class="fab fa-github"></i></a>
+        <a title="View Resume" target="_blank" href="dist/Assets/Resume 2023.pdf" class="contact-icon"
+            style="color: white">Resume</a>
     </section>
-    
+
+    <!- - - - - - - - - - - -  Desktop - - - - - - - - - - - ->
+    <div style="color: #aaa; background-color: #232526;">
+        <row style="color: #aaa" class="d-flex justify-content-between">
+            <div>
+                <h2 class="p-4 mt-2">Carole Tierney</h2>
+            </div>
+
+            <div class="mt-5">
+                <a class = "pr-4" style="color: white" href="about.html">About me</a>
+                <a style="color: white" href="projects.html">Projects</a>
+                <!-- <a class = "navLinks" href="contact.html">Contact me</a> -->
+                <!-- <a class = "navLinks" href="codingChallenges">Coding Challenges</a> -->
+            </div>
+
+            <div class="mt-5">
+                <a title="Contact Me" href="https://www.linkedin.com" class="pr-4" style="color: white" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a title="View GitHub" href="https://www.github.com" class="pr-4" style="color: white" target="_blank"><i class="fab fa-github"></i></a>
+                <a title="View Resume" target="_blank" href="/dist/Assets/Resume2023.pdf" class="pr-4" style="color: white" target="_blank" >Resume</a>
+            </div>
+        </row>
+    </div>
+
     <main>
 
         <section class="about-section">
@@ -563,5 +572,14 @@
     </main>
 
     <script src="https://kit.fontawesome.com/24693f9154.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 </html> 

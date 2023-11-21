@@ -30,15 +30,16 @@ body {
    justify-content: space-between;
 }
 
-.desktop-icon-container {
+/* .desktop-icon-container {
    margin-top: 20px;
    padding: 20px;
    display: flex;
    justify-content: space-between;
-}
+} */
 
 desktop-icon-container a {
-   margin: 0 10px;
+   display: flex;
+   justify-content: space-between;
    font-size: 1.2em;
    color: #aaa;
    text-decoration: none;
@@ -132,13 +133,14 @@ main {
 
    #desktop-nav {
       display: flex;
+      flex-direction: row;
       background-color: #232526;
       justify-content: space-between;
       color: #aaa;
    }
 
    nav {
-      margin-top: 20px;
+      padding: 20px;
    }
 
    .about-content {
