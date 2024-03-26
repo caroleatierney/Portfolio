@@ -1,0 +1,19 @@
+{
+  "homepage": "https://caroleatierney.github.io/Portfolio/",
+  "name": "carole-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --outDir build --base=/Portfolio/",
+    "deploy": "gh-pages -d build",
+    "postbuild": "npm run deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "vite": "^5.2.6"
+  }
+}
