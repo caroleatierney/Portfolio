@@ -1,8 +1,9 @@
 # Portfolio
 
-Just do go live
-
-npm run deploy?
+In order to run:
+npm run dev
+git add, commit, push
+npm run build
 
 add back
 
@@ -16,7 +17,7 @@ add back
 <!-- Deployed - week 9 - Digital Portfolio - changed repository name -->
 
 <!-- Castle Rock - add video - Changed Repo Name -->
-<!-- Soap Scents - add video - NEED TO FIGURE OUT HOW TO KEEP BACK END - changed Repo name -->
+<!-- Soap Scents - add video - working on backend -->
 
 <!-- Deployed - week 13 - Boring - don't use or add functionality - login form -->
 <!-- week 7 - not deployed on github - The Nina Story HTML - DON'T USE -->
