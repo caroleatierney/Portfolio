@@ -94,6 +94,9 @@ main {
 
 .project-image {
    width: 100%;
+   border-style: solid;
+   border-width: 4px;
+   border-color:  #D5D8DC;
 }
 
 .website-link {
