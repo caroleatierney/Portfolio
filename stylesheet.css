@@ -100,9 +100,10 @@ main {
 }
 
 .website-link {
-   color: white;
+   color: #D5D8DC;
    cursor: pointer;
    text-decoration: none;
+   font-size: 1.25em; 
 }
 
 .technologies-list {
@@ -117,17 +118,24 @@ main {
 .project-links {
    text-align: center;
    margin-top: 20px;
+   border-color:  #D5D8DC;
+   font-size: 1.2em;
 }
 
 .project-links a {
    margin: 10px;
    font-size: 1.2em;
+   color:  #D5D8DC;
 }
 
-.project-links {
+.project-links-col {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    text-align: center;
+    margin-top: 20px;
+    gap: 5px;
+    font-size: 1.2em;
+    border-color:  #D5D8DC;
 }
 
 .notable-features li {
