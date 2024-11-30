@@ -3,7 +3,7 @@
 In order to run:
 npm run dev
 git add, commit, push
-npm run build
+npm run build - and wait for it to finish
 
 <!-- Deployed - week 16 - Paris App - changed repository name -->
 <!-- Deployed - week 15 - Dog api - changed repository name -->
