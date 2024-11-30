@@ -1,7 +1,9 @@
 # Portfolio
 
-In order to run:
+In order to run locally:
 npm run dev
+
+Push changes to GitHub:
 git add, commit, push
 npm run build - and wait for it to finish
 
