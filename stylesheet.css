@@ -124,6 +124,12 @@ main {
    font-size: 1.2em;
 }
 
+.project-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .notable-features li {
    margin: 8px 0;
 }
