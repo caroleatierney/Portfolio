@@ -6,15 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Carole Tierney - Web Developer</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@100&family=Raleway:wght@100&display=swap" rel="stylesheet">   
-  <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-BpULIyHG.css">
+    <!-- <link href="stylesheet.css" rel="stylesheet"> -->
+  <link rel="stylesheet" crossorigin href="/Portfolio/assets/index-C6G_3qQV.css">
 </head>
 
 <body>
- 
+ <!-- ============================= Header/Navbar ==================================== -->
     <div style="color: #aaa; background-color: #232526;">
         <row style="color: #aaa" class="d-flex justify-content-between">
             <div>
@@ -38,14 +35,18 @@
 
     <main>
 
-        <section class="about-section">
-            <h3 class="section-title">About</h3>
-            <p class="about-content">I am an aspiring web developer. I am seeking a Front End Web Developer position. I have experience in full stack web development using technologies such as HTML, CSS, JavaScript, NodeJS, PHP, Bootstrap, React Bootstrap, Tailwind, Flowbite-React, Bulma, Git, Heroku, MongoDB, PostgreSQL and jQuery. When I am not coding, I enjoy painting murals, making cold process soap and hanging out with my mini Aussie, Nina. Please take a look at some of my personal websites below!</p>
+        <!-- ============================= About ================================ -->
+
+    <div class="flex flex-col justify-center items-center">
+        <div class="flex flex-2/3">
+            <h1 class="text-1xl text-red-200 underline text-center">TEST</h1>
+            <h3 class="">About</h3>
+            <p>I am an aspiring web developer. I am seeking a Front End Web Developer position. I have experience in full stack web development using technologies such as HTML, CSS, JavaScript, NodeJS, PHP, Bootstrap, React Bootstrap, Tailwind, Flowbite-React, Bulma, Git, Heroku, MongoDB, PostgreSQL and jQuery. When I am not coding, I enjoy painting murals, making cold process soap and hanging out with my mini Aussie, Nina. Please take a look at some of my personal websites below!</p>
 
             <p class="about-content"><i>* Note: I am still in the process of updating my websites post course. They may have some bugs and could use better styling.</i></p>
-        </section>
+        </div>
 
-        <section class= "project-section">
+        <div class= "project-section">
             <h3 class="section-title">Project Experience</h3>
 
                 <section class="project-card">
@@ -57,8 +58,8 @@
                             <a href="https://github.com/caroleatierney/TheFunBunch-Client" class="website-link" title="View Client Code" target="_blank">View Client Code</a>
                             <a href="https://github.com/caroleatierney/TheFunBunch-Server" class="website-link" title="View Server Code" target="_blank">View Server Code</a>
                         </div>
-                    </section>
-                    <section class="project-right-container">
+                    </div>
+                    <div class="project-right-container">
                         <h3>Project Description:</h3>
                         <p class="project-description"> This is an ongoing project that will hold photos and videos from excursions with The Fun Bunch!</p>
 
@@ -79,8 +80,8 @@
                             <li>Render</li>
                             <li>React Components</li>
                         </ul>
-                </section>
-            </section>
+                    </div>
+                </div>
 
             <!-- Recent Grad Resume Portfolio - Camryn -->
             <section class="project-card">
@@ -119,15 +120,20 @@
 
             <!-- Paris Trip App -->
             <section class="project-card">
-                <section class="project-left-container">
+                <section class="project-top-container">
+                    <section class="project-top-left-container">
+                    <h1 class="text-1xl text-amber-200 underline">TEST</h1>
                     <h3 class="project-title">Paris Adventure</h3>
-                    <img src="/Portfolio/assets/ParisAdventure-eQ67j0xm.png" 
+                    <img class="border-12 border-amber-200red" src="/Portfolio/assets/ParisAdventure-eQ67j0xm.png" 
                     alt="Project Image" class="project-image">
+                    </section>
+                    <section class="project-top-right-container">
                     <div class="project-links-col">
                         <a href="https://parisadventure-client.onrender.com" class="website-link" title="View Live" target="_blank">Live Website</a>
                         <a href="https://github.com/caroleatierney/ParisAdventure-Client" class="website-link" title="View Client Code" target="_blank">View Client Code</a>
                         <a href="https://github.com/caroleatierney/ParisAdventure-Server" class="website-link" title="View Server Code" target="_blank">View Server Code</a>
                     </div>
+                    </section>
                 </section>
                 <section class="project-right-container">
                     <h3>Project Description:</h3>
@@ -599,6 +605,7 @@
             </section>
 
         </section>
+        </div>
     </main>
 
     <script src="https://kit.fontawesome.com/24693f9154.js" crossorigin="anonymous"></script>
