@@ -6,8 +6,9 @@
   "description": "Personal Portfolio",
   "main": "main.jsx",
   "scripts": {
+    "clean": "rm -rf build", 
     "dev": "vite",
-    "build": "vite build --outDir build --base=/",
+    "build": "vite build",
     "deploy": "gh-pages -d build",
     "postbuild": "npm run deploy"
   },
