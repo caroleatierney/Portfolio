@@ -6,6 +6,14 @@ npm run dev
 Push changes to GitHub:
 git add, commit, push
 npm run build - and wait for it to finish
+this is then automatic:
+> carole-portfolio@1.0.0 postbuild
+> npm run deploy
+> carole-portfolio@1.0.0 deploy
+> gh-pages -d build
+
+    // "build": "vite build --outDir build --base=/Portfolio/caroleatierney/",
+    // "deploy": "gh-pages -d build",
 
 <!-- Deployed - week 16 - Paris App - changed repository name -->
 <!-- Deployed - week 15 - Dog api - changed repository name -->

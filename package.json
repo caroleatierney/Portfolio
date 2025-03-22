@@ -1,19 +1,31 @@
 {
-  "homepage": "https://caroleatierney.github.io/Portfolio/",
+  "homepage": "https://caroleatierney.github.io/Portfolio/caroleatierney",
   "name": "carole-portfolio",
   "version": "1.0.0",
+  "type": "module",
   "description": "Personal Portfolio",
-  "main": "index.js",
+  "main": "main.jsx",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --outDir build --base=/Portfolio/",
+    "build": "vite build --outDir build --base=/Portfolio/caroleatierney/",
     "deploy": "gh-pages -d build",
     "postbuild": "npm run deploy"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.14",
+    "@tailwindcss/vite": "^4.0.14",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.21",
     "gh-pages": "^6.1.1",
-    "vite": "^5.2.6"
+    "postcss": "^8.4.27",
+    "vite": "^6.2.2"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-error-boundary": "^5.0.0",
+    "tailwindcss": "^4.0.14"
   }
 }

@@ -1,0 +1,27 @@
+@import "tailwindcss"; 
+
+/** @type {import('tailwindcss').Config} */
+
+@theme {
+  --font-script: Great Vibes, cursive;
+  /* --font-script: Great Vibes; */
+  /* --font-script: Oswald; */
+
+  --breakpoint-smallestMobile: 176px;
+  --breakpoint-smallMobile: 240px;
+  --breakpoint-smallMedMobile: 480px;
+  --breakpoint-regularMobile: 640px;
+  --breakpoint-tb: 768px;
+  --breakpoint-laptop: 1024px;
+  --breakpoint-desktop: 1280px;
+  --breakpoint-largeScreen: 1536px;
+  --breakpoint-reallyLargeScreen: 3840px;
+
+  --breakpoint-xs: 30rem;
+  --breakpoint-2xl: 100rem;
+  --breakpoint-3xl: 120rem;
+
+  --color-twitter-blue: #1DA1F2;
+  /* --color-orange-500: #ffa500; */
+}
+
