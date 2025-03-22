@@ -12,8 +12,10 @@ this is then automatic:
 > carole-portfolio@1.0.0 deploy
 > gh-pages -d build
 
-    // "build": "vite build --outDir build --base=/Portfolio/caroleatierney/",
-    // "deploy": "gh-pages -d build",
+
+test a change
+
+NPM RUN BUILD for Production - not NPM RUN DEPLOY
 
 <!-- Deployed - week 16 - Paris App - changed repository name -->
 <!-- Deployed - week 15 - Dog api - changed repository name -->
