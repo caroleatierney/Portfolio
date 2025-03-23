@@ -4,7 +4,7 @@ import TheFunBunch from "./../Assets/TheFunBunch.png";
 export default function Projects() {
   return (
     <>
-      <div className="bg-gray-200 my-5">
+      <div>
         <h3 className="my-5 text-4xl text-center">Project Experience</h3>
 
         <div className="bg-gray-400 border-3 border-gray-800 w-7/8 mx-auto">
@@ -16,7 +16,7 @@ export default function Projects() {
             <div className="flex flex-col justify-center m-10 w-1/2">
               <div>
                 <img
-                  className="w-full border-12 border-gray-600 mx-auto h-full"
+                  className="w-full border-8 border-gray-300 mx-auto h-full"
                   src={TheFunBunch}
                   alt={"Grand Antigua Local's Party"}
                 />
@@ -81,7 +81,7 @@ export default function Projects() {
                   </ul>
                 </div>
               </div>
-              
+
             </div>
           </div>
         </div>

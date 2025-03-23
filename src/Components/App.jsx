@@ -6,7 +6,7 @@ import Projects from "../Components/Projects";
 
 export default function App() {
   return (
-    <div className="flex flex-col w-full mx-auto">
+    <div className="flex flex-col w-full mx-auto bg-gray-200">
       <div className="flex flex-row bg-gray-900">
         <div className="flex w-1/3">
           <Header />
