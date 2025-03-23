@@ -4,70 +4,86 @@ import TheFunBunch from "./../Assets/TheFunBunch.png";
 export default function Projects() {
   return (
     <>
-      <div>
-        <h3 className="my-5 text-4xl">Project Experience</h3>
+      <div className="bg-gray-200 my-5">
+        <h3 className="my-5 text-4xl text-center">Project Experience</h3>
 
-        <h3 className="text-2xl">The Fun Bunch</h3>
+        <div className="bg-gray-400 border-3 border-gray-800 w-7/8 mx-auto">
+          <h3 className="text-2xl text-center">The Fun Bunch</h3>
 
-        <div className="flex justify-center m-10">
-          <img
-            className="w-full border-12 border-gray-600 mx-auto h-full"
-            src={TheFunBunch}
-            alt={"Grand Antigua Local's Party"}
-          />
-        </div>
+          {/* Main Div */}
+          <div className="flex flex-row justify-center m-10">
+            {/* Left side section of larger screen */}
+            <div className="flex flex-col justify-center m-10 w-1/2">
+              <div>
+                <img
+                  className="w-full border-12 border-gray-600 mx-auto h-full"
+                  src={TheFunBunch}
+                  alt={"Grand Antigua Local's Party"}
+                />
+              </div>
 
-        <div>
-          <a
-            href="https://thefunbunch-client.onrender.com/"
-            title="View Live"
-            target="_blank"
-          >
-            Live Website
-          </a>
-          <a
-            href="https://github.com/caroleatierney/TheFunBunch-Client"
-            title="View Client Code"
-            target="_blank"
-          >
-            View Client Code
-          </a>
-          <a
-            href="https://github.com/caroleatierney/TheFunBunch-Server"
-            title="View Server Code"
-            target="_blank"
-          >
-            View Server Code
-          </a>
-        </div>
+              <div className="flex flex-row justify-evenly my-3 text-gray-100">
+                <a
+                  href="https://thefunbunch-client.onrender.com/"
+                  title="View Live"
+                  target="_blank"
+                >
+                  Live Website
+                </a>
+                <a
+                  href="https://github.com/caroleatierney/TheFunBunch-Client"
+                  title="View Client Code"
+                  target="_blank"
+                >
+                  View Client Code
+                </a>
+                <a
+                  href="https://github.com/caroleatierney/TheFunBunch-Server"
+                  title="View Server Code"
+                  target="_blank"
+                >
+                  View Server Code
+                </a>
+              </div>
+            </div>
 
-        <div>
-          <h3>Project Description:</h3>
-          <p>
-            {" "}
-            This is an ongoing project that will hold photos and videos from
-            excursions with The Fun Bunch!
-          </p>
+            {/* Right side section of larger screen */}
+            <div className="flex flex-col w-1/2">
+              <h3 className="text-center my-3">Project Description:</h3>
+              <p className="my-3">
+                This is an ongoing project that will hold photos and videos from
+                excursions with The Fun Bunch!
+              </p>
 
-          <h3>Notable features:</h3>
-          <ul>
-            <li>
-              Full CRUD - Users can add, update and delete photos and comments
-            </li>
-            <li>Fully Reponsive</li>
-          </ul>
+              <div className="flex flex-row">
+                <div className="flex flex-col">
+                  <h3>Notable features:</h3>
+                  <ul>
+                    <li>
+                      Full CRUD - Users can add, update and delete photos and
+                      comments
+                    </li>
+                    <li>Fully Reponsive</li>
+                  </ul>
+                </div>
 
-          <h3>Technologies used:</h3>
-          <ul>
-            <li>HTML</li>
-            <li>Tailwind</li>
-            <li>MongoDB</li>
-            <li>React</li>
-            <li>FlowBite React</li>
-            <li>Vite</li>
-            <li>Render</li>
-            <li>React Components</li>
-          </ul>
+                <div className="flex flex-col">
+                  <h3>Technologies used:</h3>
+                  <ul>
+                    <li>HTML</li>
+                    <li>Tailwind</li>
+                    <li>MongoDB</li>
+                    <li>React</li>
+                    <li>FlowBite React</li>
+                    <li>Vite</li>
+                    <li>Render</li>
+                    <li>React Components</li>
+                  </ul>
+                </div>
+              </div>
+              
+            </div>
+          </div>
         </div>
       </div>
     </>
