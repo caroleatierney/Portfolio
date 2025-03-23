@@ -3,8 +3,8 @@ import React from 'react';
 export default function App() {
   return (
     <>
-      <div className="font-script flex w-5/6 justify-center items-center mx-auto text-center text-grey-900">
-        <div className="flex flex-col">
+      <div className="flex flex-col font-script w-5/6 justify-center items-center mx-auto text-center text-grey-900">
+
           <h3 className="text-2xl text-center p-3 color-twitter-blue">About</h3>
           <p className="p-1 font-extralight text-xl">
             I am an aspiring web developer working on mostly personal projects.
@@ -22,8 +22,8 @@ export default function App() {
             * Note: I am still in the process of updating my websites post
             course. They may have some bugs and could use better styling.
           </p>
-        </div>
       </div>
+
     </>
   );
 }

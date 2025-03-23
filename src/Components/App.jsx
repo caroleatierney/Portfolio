@@ -1,7 +1,8 @@
-import React from "react";
-import Header from "../Components/Header";
-import About  from "../Components/About";
-import NavBar from "../Components/NavBar";
+import React    from "react";
+import Header   from "../Components/Header";
+import About    from "../Components/About";
+import NavBar   from "../Components/NavBar";
+import Projects from "../Components/Projects";
 
 export default function App() {
   return (
@@ -18,6 +19,10 @@ export default function App() {
 
       <div className="flex justify-center w-5/6 mx-auto">
         <About />
+      </div>
+
+      <div className="flex justify-center w-5/6 mx-auto">
+        <Projects />
       </div>
     </div>
   );
