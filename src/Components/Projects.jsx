@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import TheFunBunch from "./../Assets/TheFunBunch.png";
 
 export default function Projects() {
@@ -7,16 +7,18 @@ export default function Projects() {
       <div>
         <h3 className="my-5 text-4xl text-center">Project Experience</h3>
 
-        <div className="bg-gray-400 border-3 border-gray-800 w-7/8 mx-auto">
-          <h3 className="text-2xl text-center">The Fun Bunch</h3>
+        <div className="bg-slate-600 border-8 border-slate-900 w-7/8 pt-5 mx-auto">
+          <h3 className=" text-slate-300 text-4xl text-center">
+            The Fun Bunch
+          </h3>
 
           {/* Main Div */}
-          <div className="flex flex-row justify-center m-10">
+          <div className="flex flex-row justify-center text-slate-300 m-5">
             {/* Left side section of larger screen */}
-            <div className="flex flex-col justify-center m-10 w-1/2">
+            <div className="flex flex-col justify-center my-5 w-1/2">
               <div>
                 <img
-                  className="w-full border-8 border-gray-300 mx-auto h-full"
+                  className="w-full border-8 border-slate-300 mx-auto h-full"
                   src={TheFunBunch}
                   alt={"Grand Antigua Local's Party"}
                 />
@@ -48,17 +50,19 @@ export default function Projects() {
             </div>
 
             {/* Right side section of larger screen */}
-            <div className="flex flex-col w-1/2">
-              <h3 className="text-center my-3">Project Description:</h3>
+
+            <div className="flex flex-col w-1/2 items-center justify-center mx-auto pl-10">
+              <h3 className="text-center">Project Description:</h3>
               <p className="my-3">
                 This is an ongoing project that will hold photos and videos from
                 excursions with The Fun Bunch!
               </p>
-
-              <div className="flex flex-row">
-                <div className="flex flex-col">
+              <div className="flex flex-row w-full pt-5">
+                {" "}
+                {/* Horizontal list container */}
+                <div className="w-1/2">
                   <h3>Notable features:</h3>
-                  <ul>
+                  <ul className="list-disc list-inside">
                     <li>
                       Full CRUD - Users can add, update and delete photos and
                       comments
@@ -66,10 +70,9 @@ export default function Projects() {
                     <li>Fully Reponsive</li>
                   </ul>
                 </div>
-
-                <div className="flex flex-col">
+                <div className="w-1/2 mx-5">
                   <h3>Technologies used:</h3>
-                  <ul>
+                  <ul className="list-disc list-inside">
                     <li>HTML</li>
                     <li>Tailwind</li>
                     <li>MongoDB</li>
@@ -81,7 +84,6 @@ export default function Projects() {
                   </ul>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
