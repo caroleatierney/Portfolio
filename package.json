@@ -9,8 +9,8 @@
     "clean": "rm -rf build", 
     "dev": "vite",
     "build": "vite build",
-    "deploy": "gh-pages -d build",
-    "postbuild": "npm run deploy"
+    "predeploy": "npm run clean && npm run build",
+    "deploy": "gh-pages -d build"
   },
   "author": "",
   "license": "ISC",
