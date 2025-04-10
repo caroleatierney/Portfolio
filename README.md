@@ -13,7 +13,7 @@ this is then automatic:
 > gh-pages -d build
 
 
-test a change after crazy thing
+  "homepage": "https://caroleatierney.github.io/Portfolio",
 
 NPM RUN BUILD for Production - not NPM RUN DEPLOY
 
