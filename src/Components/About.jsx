@@ -3,7 +3,7 @@ import React from 'react';
 export default function App() {
   return (
     <>
-      <div className="flex flex-col font-script w-5/6 justify-center items-center mx-auto text-center text-grey-900">
+      <div className="flex flex-col w-5/6 justify-center items-center mx-auto text-center text-grey-900">
 
           <h3 className="text-2xl text-center p-3 color-twitter-blue">About</h3>
           <p className="p-1 font-extralight text-xl">

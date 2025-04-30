@@ -3,10 +3,14 @@ import Header   from "../Components/Header";
 import About    from "../Components/About";
 import NavBar   from "../Components/NavBar";
 import Projects from "../Components/Projects";
+import BootCamp from "../Components/BootCamp";
 
 export default function App() {
   return (
-    <div className="flex flex-col w-full mx-auto bg-gray-200">
+    <div
+      className="flex flex-col w-full mx-auto bg-gray-200 font-poppins
+    "
+    >
       <div className="flex flex-row bg-slate-800">
         <div className="flex w-1/3">
           <Header />
@@ -16,6 +20,7 @@ export default function App() {
           <NavBar />
         </div>
       </div>
+
       <div className="bg-slate-200">
         <div className="flex justify-center w-5/6 mx-auto">
           <About />
@@ -23,6 +28,10 @@ export default function App() {
 
         <div className="flex justify-center w-5/6 mx-auto">
           <Projects />
+        </div>
+
+        <div className="flex justify-center w-5/6 mx-auto">
+          <BootCamp />
         </div>
       </div>
     </div>
