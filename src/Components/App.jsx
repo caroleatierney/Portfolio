@@ -7,30 +7,27 @@ import BootCamp from "../Components/BootCamp";
 
 export default function App() {
   return (
-    <div
-      className="flex flex-col w-full mx-auto bg-gray-200 font-poppins
-    "
-    >
-      <div className="flex flex-row bg-slate-800">
-        <div className="flex w-1/3">
+    <div className="flex flex-col w-7/8 mx-auto bg-gray-200 font-poppins">
+      <div className="flex flex-col md:flex-row justify-center bg-slate-800 pb-2">
+        <div className="flex justify-center w-full md:w-1/3">
           <Header />
         </div>
 
-        <div className="w-2/3">
+        <div className="flex w-full md:w-2/3">
           <NavBar />
         </div>
       </div>
 
-      <div className="bg-slate-200">
-        <div className="flex justify-center w-5/6 mx-auto">
+      <div className="bg-slate-200 flex flex-col justify-center w-full mx-auto pt-2">
+        <div className="">
           <About />
         </div>
 
-        <div className="flex justify-center w-5/6 mx-auto">
+        <div>
           <Projects />
         </div>
 
-        <div className="flex justify-center w-5/6 mx-auto">
+        <div>
           <BootCamp />
         </div>
       </div>

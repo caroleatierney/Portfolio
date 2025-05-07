@@ -2,7 +2,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <div className="flex flex-col md:flex-row w-full items-center justify-evenly h-full text-gray-300">
+    <div className="text-xs flex flex-col md:flex-row w-full items-center justify-evenly h-full text-gray-300">
       <a title="Contact Me"
         href="https://www.linkedin.com"
         target="_blank">

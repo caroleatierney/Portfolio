@@ -4,32 +4,31 @@ import TheFunBunch from "./../Assets/TheFunBunch.png";
 export default function Projects() {
   return (
     <>
-      <div>
-        <h3 className="my-5 text-4xl text-center">Project Experience</h3>
+      <div className="m-2" >
+      <h3 className="my-5 text-lg text-center">Project Experience</h3>
 
-        <div className="bg-slate-600 border-8 border-slate-900 w-7/8 pt-5">
+        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto">
           <div className="text-slate-300 mb-5">
-            <h3 className="text-4xl text-center">The Fun Bunch</h3>
-            <h3 className="text-center pt-4">Project Description:</h3>
-            <p className="m-3 text-center">
+            <h3 className="text-md md:text-xl text-center">The Fun Bunch</h3>
+            <h3 className="text-md md:text-xl text-center pt-4">Project Description:</h3>
+            <p className="m-3 text-center text-xs md:text-md p-2">
               This is an ongoing project that will hold photos and videos from
               excursions with The Fun Bunch!
             </p>
 
             {/* Main Div */}
-            <div className="flex flex-row justify-center m-5">
+            <div className="flex flex-col md:flex-row justify-center md:m-5">
               {/* Left side section of larger screen */}
-              <div className="justify-center my-5 w-1/2 items-center">
+              <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
                 <div className="w-full mx-auto">
                   <img
-                    // className="w-full border-8 border-slate-200 mx-auto h-full"
-                    className="w-full border-8 border-green-200 mx-auto h-full"
+                    className="w-full border-8 border-cyan-500 mx-auto h-full"s
                     src={TheFunBunch}
                     alt={"The Fun Bunch Main Page"}
                   />
                 </div>
 
-                <div className="flex flex-row justify-evenly my-3">
+                <div className="flex flex-row justify-evenly text-center text-xs my-3">
                   <a
                     href="https://thefunbunch-client.onrender.com/"
                     title="View Live"
@@ -56,12 +55,12 @@ export default function Projects() {
 
               {/* Right side section of larger screen */}
 
-              <div className="pl-10 flex flex-col w-1/2 items-center justify-center mx-auto text-md">
+              <div className="md:pl-10 flex flex-col md:w-1/2 items-center justify-center mx-auto text-md">
                 <div className="flex flex-col pt-5">
                   {/* Horizontal list container */}
                   <div className="pb-3">
-                    <h3 className="text-3xl">Notable features:</h3>
-                    <ul className="list-disc list-inside">
+                    <h3 className="text-md md:text-lg lg:text-3xl">Notable features:</h3>
+                    <ul className="list-disc list-inside text-xs">
                       <li>
                         Full CRUD - Users can add, update and delete photos and
                         comments
@@ -69,9 +68,10 @@ export default function Projects() {
                       <li>Fully Reponsive</li>
                     </ul>
                   </div>
+
                   <div>
-                    <h3 className="text-3xl">Technologies used:</h3>
-                    <ul className="list-disc list-inside">
+                    <h3 className="text-md md:text-3xl">Technologies used:</h3>
+                    <ul className="text-xs list-disc list-inside">
                       <li>HTML</li>
                       <li>Tailwind</li>
                       <li>MongoDB</li>
