@@ -6,19 +6,21 @@ export default function Projects() {
   return (
     <>
       <div className="m-2">
-        <h3 className="my-5 text-lg text-center">Project Experience</h3>
+        <h3 className="my-5 text-lg md:text-4xl text-center">
+          Post Bootcamp Projects
+        </h3>
 
         {/* ******************    The Fun Bunch     ****************** */}
 
         <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto">
           <div className="text-slate-300 mb-5">
-            <h3 className="text-md md:text-xl text-center">Paris Adventure</h3>
-            <h3 className="text-md md:text-xl text-center pt-4">
-              Project Description:
+            <h3 className="text-md md:text-4xl text-center text-cyan-500">
+              The Fun Bunch
             </h3>
-            <p className="m-3 text-center text-xs md:text-md p-2">
+            <p className="m-3 text-center text-xs md:text-lg p-2 w-1/2 mx-auto">
               This is an ongoing project that will hold photos and videos from
-              excursions with The Fun Bunch!
+              excursions with The Fun Bunch! I built th based on a react project
+              I started on my Promineo Boot Camp.
             </p>
 
             {/* Main Div */}
@@ -96,15 +98,12 @@ export default function Projects() {
         </div>
 
         {/* ******************    Paris Trip App     ****************** */}
-        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto">
-          <div className="text-slate-300 mb-5">
-            <h3 className="text-md md:text-xl text-center">
+        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+          <div className="text-slate-300 my-5">
+            <h3 className="text-md md:text-4xl text-center text-red-300">
               Our Trip to France
             </h3>
-            <h3 className="text-md md:text-xl text-center pt-4">
-              Project Description:
-            </h3>
-            <p className="m-3 text-center text-xs md:text-md p-2">
+            <p className="m-3 text-center text-xs md:text-lg p-2 w-1/2 mx-auto">
               This website was designed to be a live scrapbook for a trip to
               Paris with my very good friend, Roseann. When it is finally
               complete, I plan to share it with all the other travellers on our
@@ -128,7 +127,7 @@ export default function Projects() {
                 <div className="flex flex-row justify-evenly text-center text-xs my-3">
                   <a
                     href="https://parisadventure-client.onrender.com"
-                    class="website-link"
+                    className="website-link"
                     title="View Live"
                     target="_blank"
                   >
@@ -136,7 +135,7 @@ export default function Projects() {
                   </a>
                   <a
                     href="https://github.com/caroleatierney/ParisAdventure-Client"
-                    class="website-link"
+                    className="website-link"
                     title="View Client Code"
                     target="_blank"
                   >
@@ -144,7 +143,7 @@ export default function Projects() {
                   </a>
                   <a
                     href="https://github.com/caroleatierney/ParisAdventure-Server"
-                    class="website-link"
+                    className="website-link"
                     title="View Server Code"
                     target="_blank"
                   >
@@ -187,7 +186,9 @@ export default function Projects() {
                       <li>Render</li>
                       <li>React Components</li>
                     </ul>
-                    <h3 className="text-md md:text-3xl">Room for improvement:</h3>
+                    <h3 className="text-md md:text-3xl">
+                      Room for improvement:
+                    </h3>
                     <ul className="text-xs list-disc list-inside">
                       <li>Add search back</li>
                       <li>Allow to search for any location and radius</li>
