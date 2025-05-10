@@ -17,7 +17,7 @@ export default function Projects() {
             <h3 className="text-md md:text-4xl text-center text-cyan-500">
               The Fun Bunch
             </h3>
-            <p className="m-3 text-center text-xs md:text-lg p-2 w-1/2 mx-auto">
+            <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
               This is an ongoing project that will hold photos and videos from
               excursions with The Fun Bunch! I built th based on a react project
               I started on my Promineo Boot Camp.
@@ -101,9 +101,9 @@ export default function Projects() {
         <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
           <div className="text-slate-300 my-5">
             <h3 className="text-md md:text-4xl text-center text-red-300">
-              Our Trip to France
+              Trip to France
             </h3>
-            <p className="m-3 text-center text-xs md:text-lg p-2 w-1/2 mx-auto">
+            <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
               This website was designed to be a live scrapbook for a trip to
               Paris with my very good friend, Roseann. When it is finally
               complete, I plan to share it with all the other travellers on our
