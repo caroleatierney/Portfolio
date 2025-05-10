@@ -90,7 +90,7 @@ export default function BootCamp() {
                         Add some inline javascript to keep count of viewer's
                         Aussie coat tallies
                       </li>
-                      <li>MockApI to store tallies></li>
+                      <li>MockApI to store tallies</li>
                       <li>Make responsive</li>
                       <li>
                         Note: I had a big issue with GH-Pages and deleted the

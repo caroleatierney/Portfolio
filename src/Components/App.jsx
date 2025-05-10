@@ -12,7 +12,7 @@ export default function App() {
   return (
     <Router>
       <div className="flex flex-col w-full mx-auto bg-gray-200 font-poppins">
-        <div className="flex flex-col md:flex-row justify-center bg-slate-800 pb-2">
+        <div className="flex flex-col md:flex-row justify-center bg-slate-800 py-4">
           <div className="flex justify-center w-full md:w-1/3">
             <Header />
           </div>

@@ -26,13 +26,16 @@ export default function NavBar() {
           Resume
         </a>
 
+        {/* Certificates Button and Dropdown */}
+        <div className="relative">
         <button
+          onClick={() => setDropdownOpen(!dropdownOpen)}
           id="dropdownDefaultButton"
           data-dropdown-toggle="dropdown"
-          className="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className="text-gray-300 bg-slate-800 hover:bg-slate-800 focus:ring-1 focus:outline-none focus:ring-slate-300 font-medium rounded-lg text-md px-5 py-2.5 text-center inline-flex items-center dark:bg-gray-200 dark:hover:bg-slate-800 dark:focus:ring-slate-800 border-1"
           type="button"
         >
-          Certificates x
+          Certificates
           <svg
             className="w-2.5 h-2.5 ms-3"
             aria-hidden="true"
@@ -52,7 +55,9 @@ export default function NavBar() {
 
         <div
           id="dropdown"
-          className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-sm w-44 dark:bg-gray-700"
+          className={`z-10 ${
+            dropdownOpen ? "" : "hidden"
+          } bg-gray-300 divide-y divide-gray-800 rounded-lg shadow-sm w-44 dark:bg-gray-200 absolute font-poppins`}
         >
           <ul
             className="py-2 text-sm text-gray-700 dark:text-gray-200"
@@ -61,7 +66,9 @@ export default function NavBar() {
             <li>
               <a
                 href={GA}
-                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white font-poppins"
+                target="_blank"
+                rel="noopener"
               >
                 General Assembly
               </a>
@@ -70,6 +77,8 @@ export default function NavBar() {
               <a
                 href={Promineo}
                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                target="_blank"
+                rel="noopener"
               >
                 Promineo
               </a>
@@ -78,25 +87,16 @@ export default function NavBar() {
               <a
                 href={Minos}
                 className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                target="_blank"
+                rel="noopener"
               >
                 Minos Labs
               </a>
             </li>
           </ul>
         </div>
-
-        <a title="Promineo Tech Certificate" href={Promineo} target="_blank">
-          Promineo Tech Certificate
-        </a>
-
-        <a title="Minos Labs Certificate" href={Minos} target="_blank">
-          Minos Labs Certificate
-        </a>
-
-        <a title="General Assembly Certificate" href={GA} target="_blank">
-          General Assembly Certificate
-        </a>
       </div>
+    </div>
 
       <div className="flex justify-evenly w-1/2">
         <Link title="Projects" to="/Projects">
