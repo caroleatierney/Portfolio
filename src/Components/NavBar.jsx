@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Resume from "./../Assets/Resume-2024.pdf";
+import Promineo from "./../Assets/Promineo.pdf";
+import GA from "./../Assets/GeneralAssembly.pdf";
+import Minos from "./../Assets/MinosLabs.pdf";
 
 export default function NavBar() {
   return (
@@ -8,6 +12,7 @@ export default function NavBar() {
         <a title="Contact Me" href="https://www.linkedin.com" target="_blank">
           <i className="fab fa-linkedin"></i>
         </a>
+
         <a
           title="View GitHub"
           href="https://www.github.com/caroleatierney"
@@ -15,36 +20,31 @@ export default function NavBar() {
         >
           <i class="fab fa-github"></i>
         </a>
-        <a
-          title="View Resume"
-          href="/dist/Assets/Resume_2024.pdf"
-          target="_blank"
-        >
+
+        <a title="View Resume" href={Resume} target="_blank">
           Resume
         </a>
-        <a
-          title="Promineo Tech Certificate"
-          href="/dist/Assets/Promineo_Tech.pdf"
-          target="_blank"
-        >
+
+        <a title="Promineo Tech Certificate" href={Promineo} target="_blank">
           Promineo Tech Certificate
         </a>
-        <a
-          title="General Assembly Certificate"
-          href="/dist/Assets/General_Assembly.pdf"
-          target="_blank"
-        >
+
+        <a title="Minos Labs Certificate" href={Minos} target="_blank">
+          Minos Labs Certificate
+        </a>
+
+        <a title="General Assembly Certificate" href={GA} target="_blank">
           General Assembly Certificate
         </a>
       </div>
 
       <div className="flex justify-evenly w-1/2">
-        <Link title="Home" to="/Home">
-          Home
+        <Link title="Projects" to="/Projects">
+          Post Bootcamp Projects
         </Link>
 
         <Link title="Boot Camp Projects" to="/BootCamp">
-          Boot Camp Projects
+          Bootcamp Projects
         </Link>
       </div>
     </div>

@@ -7,7 +7,7 @@ export default function Projects() {
     <>
       <div className="m-2">
         <h3 className="my-5 text-lg md:text-4xl text-center">
-          Post Bootcamp Projects
+          Project Experience
         </h3>
 
         {/* ******************    The Fun Bunch     ****************** */}
@@ -74,7 +74,7 @@ export default function Projects() {
                         Full CRUD - Users can add, update and delete photos and
                         comments
                       </li>
-                      <li>Fully Reponsive</li>
+                      <li>Fully Responsive</li>
                     </ul>
                   </div>
 

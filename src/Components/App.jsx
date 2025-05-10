@@ -11,31 +11,29 @@ import Footer from "../Components/Footer";
 export default function App() {
   return (
     <Router>
-          <div className="flex flex-col w-7/8 mx-auto bg-gray-200 font-poppins">
-            <div className="flex flex-col md:flex-row justify-center bg-slate-800 pb-2">
-              <div className="flex justify-center w-full md:w-1/3">
-                <Header />
-              </div>
-      
-              <div className="flex w-full md:w-2/3">
-                <NavBar />
-              </div>
-            </div>
+      <div className="flex flex-col w-7/8 mx-auto bg-gray-200 font-poppins">
+        <div className="flex flex-col md:flex-row justify-center bg-slate-800 pb-2">
+          <div className="flex justify-center w-full md:w-1/3">
+            <Header />
+          </div>
 
-            <div className="bg-slate-200 flex flex-col justify-center w-full mx-auto pt-2">
-              <About />
-              <Projects />
-            </div>
+          <div className="flex w-full md:w-2/3">
+            <NavBar />
+          </div>
+        </div>
 
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/BootCamp" element={<BootCamp />} />
-          </Routes>
+        <div className="bg-slate-200 flex flex-col justify-center w-full mx-auto pt-2">
+          <About />
+        </div>
+        
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/BootCamp" element={<BootCamp />} />
+        </Routes>
 
-          <Footer />
-
+        <Footer />
       </div>
-
     </Router>
   );
 }

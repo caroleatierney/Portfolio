@@ -13,7 +13,7 @@ export default function About() {
           React Bootstrap, Tailwind, Flowbite-React, Bulma, Git, Heroku,
           MongoDB, PostgreSQL and jQuery. In my spare time, I enjoy painting
           murals, making cold process soap and hanging out with my mini Aussie,
-          Nina. Please take a look at some of my personal websites below!
+          Nina. Please take a look at some of my websites!
         </p>
       </div>
     </>
