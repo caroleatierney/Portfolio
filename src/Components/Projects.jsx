@@ -7,14 +7,14 @@ import Jocelyn from "./../Assets/Jocelyn.png";
 export default function Projects() {
   return (
     <>
-      <div className="m-2  W-9/10">
+      <div className="m-2 flex flex-col">
         <h3 className="my-5 text-lg md:text-4xl text-center">
           Project Experience
         </h3>
 
         {/* ******************    The Fun Bunch     ****************** */}
 
-        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto">
+        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 mt-5 mb-10">
           <div className="text-slate-300 mb-5">
             <h3 className="text-md md:text-4xl text-center text-cyan-500">
               The Fun Bunch
@@ -76,10 +76,8 @@ export default function Projects() {
                     </li>
                     <li>Fully Responsive</li>
                   </ul>
-                </div>
 
-                <div>
-                  <h3 className="text-md md:text-3xl">Technologies used:</h3>
+                  <h3 className="text-md md:text-3xl pt-10">Technologies used:</h3>
                   <ul className="text-xs list-disc list-inside">
                     <li>HTML</li>
                     <li>Tailwind</li>
@@ -98,8 +96,8 @@ export default function Projects() {
 
         {/* ******************    Paris Trip App     ****************** */}
 
-        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto mb-10">
-          <div className="text-slate-300 my-5">
+        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
+          <div className="text-slate-300 mb-5">
             <h3 className="text-md md:text-4xl text-center text-red-300">
               Trip to France
             </h3>
@@ -156,7 +154,7 @@ export default function Projects() {
 
               <div className="md:pl-10 flex flex-col md:w-1/2 items-center text-md justify-evenly">
                 {/* Vertical list container */}
-                <div className="pb-3">
+                <div className="flex flex-col pb-3">
                   <h3 className="text-md md:text-lg lg:text-3xl">
                     Notable features:
                   </h3>
@@ -171,10 +169,8 @@ export default function Projects() {
                       have left
                     </li>
                   </ul>
-                </div>
 
-                <div>
-                  <h3 className="text-md md:text-3xl">Technologies used:</h3>
+                  <h3 className="text-md md:text-3xl pt-5">Technologies used:</h3>
                   <ul className="text-xs list-disc list-inside">
                     <li>HTML</li>
                     <li>Tailwind</li>
@@ -185,10 +181,8 @@ export default function Projects() {
                     <li>Render</li>
                     <li>React Components</li>
                   </ul>
-                </div>
 
-                <div>
-                  <h3 className="text-md md:text-3xl">Room for improvement:</h3>
+                  <h3 className="text-md md:text-3xl pt-5">Room for improvement:</h3>
                   <ul className="text-xs list-disc list-inside">
                     <li>Add search back</li>
                     <li>Allow to search for any location and radius</li>
@@ -198,168 +192,158 @@ export default function Projects() {
                     <li>Currently making it responsive</li>
                   </ul>
                 </div>
-
               </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ******************    Camryn's Portfolio     ****************** */}
+
+        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
+          <div className="text-slate-300 mb-5">
+            <h3 className="text-md md:text-4xl text-center text-red-800">
+              Digital Portfolio - Camryn
+            </h3>
+            <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
+              This was a React project for a friend that is strictly HTML and
+              Tailwind.
+            </p>
+
+            {/* Main Div */}
+            <div className="flex flex-col md:flex-row justify-center md:m-5">
+              {/* Left side section of larger screen */}
+              <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
+                <div className="w-full mx-auto">
+                  <img
+                    className="w-full border-8 border-red-800 mx-auto h-full"
+                    src={Camryn}
+                    alt={"Camryn's Portfolio Main Page"}
+                  />
+                </div>
+
+                <div className="flex flex-row justify-evenly text-center text-xs my-3">
+                  <a
+                    href="https://caroleatierney.github.io/Camryn-Portfolio/"
+                    title="View Live"
+                    target="_blank"
+                  >
+                    Live Website
+                  </a>
+                  <a
+                    href="https://github.com/caroleatierney/Camryn-Portfolio"
+                    title="View Client Code"
+                    target="_blank"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+
+              {/* Right side section of larger screen */}
+
+              <div className="md:pl-10 flex flex-col md:w-1/2 items-center text-md justify-evenly">
+                {/* Vertical list container */}
+                <div className="pb-3">
+                  <h3 className="text-md md:text-lg lg:text-3xl">
+                    Notable features:
+                  </h3>
+                  <ul className="list-disc list-inside text-xs">
+                    <li>Form that sends an email via EmailJS</li>
+                    <li>Customized Flowbite-React Components</li>
+                    <li>Fully Reponsive</li>
+                  </ul>
+
+                  <h3 className="text-md md:text-3xl pt-10">Technologies used:</h3>
+                  <ul className="text-xs list-disc list-inside">
+                    <li>HTML</li>
+                    <li>Tailwind</li>
+                    <li>Flowbite-React</li>
+                    <li>React</li>
+                    <li>Vite</li>
+                    <li>EmailJS</li>
+                  </ul>
+
+                  <h3 className="text-md md:text-3xl pt-10">Room for improvement:</h3>
+                  <ul className="text-xs list-disc list-inside">
+                    <li>Make Responsive</li>
+                    <li>Fix main image</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ******************    Jocelyn's Portfolio     ****************** */}
+
+        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
+          <div className="text-slate-300 mb-5">
+            <h3 className="text-md md:text-4xl text-center text-indigo-200">
+              Digital Portfolio - Jocelyn
+            </h3>
+            <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
+              This was a React project for a friend that is strictly HTML and
+              This was an individual project that uses HTML and Bootstrap 4.
+            </p>
+
+            {/* Main Div */}
+            <div className="flex flex-col md:flex-row justify-center md:m-5">
+              {/* Left side section of larger screen */}
+              <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
+                <div className="w-full mx-auto">
+                  <img
+                    className="w-full border-8 border-blue-900 mx-auto h-full"
+                    src={Jocelyn}
+                    alt={"Jocelyn's Portfolio Main Page"}
+                  />
+                </div>
+
+                <div className="flex flex-row justify-evenly text-center text-xs my-3">
+                  <a
+                    href="https://caroleatierney.github.io/Jocelyn-Portfolio/"
+                    title="View Live"
+                    target="_blank"
+                  >
+                    Live Website
+                  </a>
+                  <a
+                    href="https://github.com/caroleatierney/Jocelyn-Portfolio"
+                    title="View Client Code"
+                    target="_blank"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+
+              {/* Right side section of larger screen */}
+
+              <div className="md:pl-10 flex flex-col md:w-1/2 items-center text-md justify-evenly">
+                {/* Vertical list container */}
+
+                <div className="pb-3">
+                  <h3 className="text-md md:text-lg lg:text-3xl">
+                    Notable features:
+                  </h3>
+                  <ul className="list-disc list-inside text-xs">
+                    <li>Bootsrap form</li>
+                    <li>Bootstrap table</li>
+                    <li>Bootstrap grid</li>
+                    <li>Font Awesome</li>
+                  </ul>
               
-            </div>
-          </div>
-        </div>
-      </div>
+                  <h3 className="text-md md:text-3xl pt-10">Technologies used:</h3>
+                  <ul className="text-xs list-disc list-inside">
+                    <li>HTML</li>
+                    <li>Bootstrap only for styling (no CSS)</li>
+                    <li>EmailJS</li>
+                  </ul>
 
-      {/* ******************    Camryn's Portfolio     ****************** */}
-
-      <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto mb-10">
-        <div className="text-slate-300 my-5">
-          <h3 className="text-md md:text-4xl text-center text-red-800">
-            Digital Portfolio - Camryn
-          </h3>
-          <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
-            This was a React project for a friend that is strictly HTML and
-            Tailwind.
-          </p>
-
-          {/* Main Div */}
-          <div className="flex flex-col md:flex-row justify-center md:m-5">
-            {/* Left side section of larger screen */}
-            <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
-              <div className="w-full mx-auto">
-                <img
-                  className="w-full border-8 border-red-800 mx-auto h-full"
-                  src={Camryn}
-                  alt={"Camryn's Portfolio Main Page"}
-                />
-              </div>
-
-              <div className="flex flex-row justify-evenly text-center text-xs my-3">
-                <a
-                  href="https://caroleatierney.github.io/Camryn-Portfolio/"
-                  title="View Live"
-                  target="_blank"
-                >
-                  Live Website
-                </a>
-                <a
-                  href="https://github.com/caroleatierney/Camryn-Portfolio"
-                  title="View Client Code"
-                  target="_blank"
-                >
-                  View Code
-                </a>
-              </div>
-            </div>
-
-            {/* Right side section of larger screen */}
-
-            <div className="md:pl-10 flex flex-col md:w-1/2 items-center text-md justify-evenly">
-              {/* Vertical list container */}
-              <div className="pb-3">
-                <h3 className="text-md md:text-lg lg:text-3xl">
-                  Notable features:
-                </h3>
-                <ul className="list-disc list-inside text-xs">
-                  <li>Form that sends an email via EmailJS</li>
-                  <li>Customized Flowbite-React Components</li>
-                  <li>Fully Reponsive</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="text-md md:text-3xl">Technologies used:</h3>
-                <ul className="text-xs list-disc list-inside">
-                  <li>HTML</li>
-                  <li>Tailwind</li>
-                  <li>Flowbite-React</li>
-                  <li>React</li>
-                  <li>Vite</li>
-                  <li>EmailJS</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="text-md md:text-3xl">Room for improvement:</h3>
-                <ul className="text-xs list-disc list-inside">
-                  <li>Make Responsive</li>
-                  <li>Fix main image</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* ******************    Jocelyn's Portfolio     ****************** */}
-
-      <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto mb-10">
-        <div className="text-slate-300 my-5">
-          <h3 className="text-md md:text-4xl text-center text-indigo-200">
-            Digital Portfolio - Jocelyn
-          </h3>
-          <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
-            This was a React project for a friend that is strictly HTML and This
-            was an individual project that uses HTML and Bootstrap 4.
-          </p>
-
-          {/* Main Div */}
-          <div className="flex flex-col md:flex-row justify-center md:m-5">
-            {/* Left side section of larger screen */}
-            <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
-              <div className="w-full mx-auto">
-                <img
-                  className="w-full border-8 border-blue-900 mx-auto h-full"
-                  src={Jocelyn}
-                  alt={"Jocelyn's Portfolio Main Page"}
-                />
-              </div>
-
-              <div className="flex flex-row justify-evenly text-center text-xs my-3">
-                <a
-                  href="https://caroleatierney.github.io/Jocelyn-Portfolio/"
-                  title="View Live"
-                  target="_blank"
-                >
-                  Live Website
-                </a>
-                <a
-                  href="https://github.com/caroleatierney/Jocelyn-Portfolio"
-                  title="View Client Code"
-                  target="_blank"
-                >
-                  View Code
-                </a>
-              </div>
-            </div>
-
-            {/* Right side section of larger screen */}
-
-            <div className="md:pl-10 flex flex-col md:w-1/2 items-center text-md justify-evenly">
-              {/* Vertical list container */}
-
-              <div className="pb-3">
-                <h3 className="text-md md:text-lg lg:text-3xl">
-                  Notable features:
-                </h3>
-                <ul className="list-disc list-inside text-xs">
-                  <li>Bootsrap form</li>
-                  <li>Bootstrap table</li>
-                  <li>Bootstrap grid</li>
-                  <li>Font Awesome</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="text-md md:text-3xl">Technologies used:</h3>
-                <ul className="text-xs list-disc list-inside">
-                  <li>HTML</li>
-                  <li>Bootstrap only for styling (no CSS)</li>
-                  <li>EmailJS</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="text-md md:text-3xl">Room for improvement:</h3>
-                <ul className="text-xs list-disc list-inside">
-                  <li>Smaller, better image</li>
-                </ul>
+                  <h3 className="text-md md:text-3xl pt-10">Room for improvement:</h3>
+                  <ul className="text-xs list-disc list-inside">
+                    <li>Smaller, better image</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>

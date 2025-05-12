@@ -2,6 +2,10 @@ import React from "react";
 import Dogs from "./../Assets/Dogs.png";
 import Butterflies from "./../Assets/ButterfliesOfNewEngland.png";
 import Nina from "./../Assets/Nina.png";
+import Maggie from "./../Assets/MensSalon.jpeg";
+import Gene from "./../Assets/GeneShalit.png";
+import Soap from "./../Assets/SoapScents.png";
+import Marshfield from "./../Assets/MarBeachRec.png";
 
 export default function BootCamp() {
   return (
@@ -207,7 +211,7 @@ export default function BootCamp() {
               <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
                 <div className="w-full mx-auto">
                   <img
-                    className="w-full border-8 border-cyan-500 mx-auto h-full"
+                    className="w-full border-8 border-orange-300 mx-auto h-full"
                     src={Butterflies}
                     alt={"Butterfly App Image"}
                   />
@@ -270,6 +274,355 @@ export default function BootCamp() {
                       <li>Seed API using butterfly api</li>
                       <li>Make responsive</li>
                     </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ******************    Movie Review     ****************** */}
+        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+          <div className="text-slate-300 my-5">
+            <h3 className="text-md md:text-4xl text-center text-yellow-700">
+              Men's Salon
+            </h3>
+            <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
+              The movie review app was an assignmnent to practice coding React
+              components.
+            </p>
+
+            {/* Main Div */}
+            <div className="flex flex-col md:flex-row justify-center md:m-5">
+              {/* Left side section of larger screen */}
+              <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
+                <div className="w-full mx-auto">
+                  <img
+                    className="w-full border-8 border-yellow-700 mx-auto h-full"
+                    src={Gene}
+                    alt={"Gene Shalit"}
+                  />
+                </div>
+
+                <div className="flex flex-row justify-evenly text-center text-xs my-3">
+                  <a
+                    href="https://caroleatierney.github.io/Movie_Review/"
+                    class="website-link"
+                    title="View Live"
+                    target="_blank"
+                  >
+                    Live Website
+                  </a>
+                  <a
+                    href="https://github.com/caroleatierney/Movie_Review/"
+                    class="website-link"
+                    title="View Code"
+                    target="_blank"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+
+              {/* Right side section of larger screen */}
+
+              <div className="md:pl-10 flex flex-col md:w-1/2 items-center justify-center mx-auto text-md">
+                <div className="flex flex-col pt-5">
+                  {/* Horizontal list container */}
+                  <div className="pb-3">
+                    <h3 className="text-md md:text-lg lg:text-3xl">
+                      Notable features:
+                    </h3>
+                    <ul>
+                      <li>Reviews</li>
+                      <li>Stars</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h3 className="text-md md:text-3xl">Technologies used:</h3>
+                    <ul className="text-xs list-disc list-inside">
+                      <li>CSS</li>
+                      <li>HTML</li>
+                      <li>Bootstrap</li>
+                    </ul>
+                    <h3 className="text-md md:text-3xl">
+                      Room for improvement:
+                    </h3>
+                    <ul className="text-xs list-disc list-inside">
+                      <li>There is a double fetch - need to debug</li>
+                      <li>Fix reviews code</li>
+                      <li>Add a star component</li>
+                      <li>Make responsive</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ******************    Marshfield Travel App     ****************** */}
+        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+          <div className="text-slate-300 my-5">
+            <h3 className="text-md md:text-4xl text-center text-yellow-700">
+              Marshfield Travel App
+            </h3>
+            <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
+              This was the final project. It is an app intended to be used by
+              Marshfield, MA vacationers to explore the beaches and all that
+              this South Shore Massachusetts vacation town has to offer.
+            </p>
+
+            {/* Main Div */}
+            <div className="flex flex-col md:flex-row justify-center md:m-5">
+              {/* Left side section of larger screen */}
+              <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
+                <div className="w-full mx-auto">
+                  <img
+                    className="w-full border-8 border-yellow-700 mx-auto h-full"
+                    src={Marshfield}
+                    alt={"Marshfield"}
+                  />
+                </div>
+
+                <div className="flex flex-row justify-evenly text-center text-xs my-3">
+                  <a
+                    href="https://caroleatierney.github.io/marbeachrec/"
+                    class="website-link"
+                    title="View Live"
+                    target="_blank"
+                  >
+                    Live Website
+                  </a>
+                  <a
+                    href="https://github.com/caroleatierney/marbeachrec"
+                    class="website-link"
+                    title="View Code"
+                    target="_blank"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+
+              {/* Right side section of larger screen */}
+
+              <div className="md:pl-10 flex flex-col md:w-1/2 items-center justify-center mx-auto text-md">
+                <div className="flex flex-col pt-5">
+                  {/* Horizontal list container */}
+                  <div className="pb-3">
+                    <h3 className="text-md md:text-lg lg:text-3xl">
+                      Notable features:
+                    </h3>
+                    <ul>
+                      <li>
+                        This app displays tide information from RapidAPI Tides
+                      </li>
+                      <li>
+                        Website and data are hosted on Heroku (?) - Need to
+                        figure this out - can you keep a backend?
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h3 className="text-md md:text-3xl">Technologies used:</h3>
+                    <ul className="text-xs list-disc list-inside">
+                      <li>HTML</li>
+                      <li>Bulma CSS Framework</li>
+                      <li>JavaScript</li>
+                      <li>PERN Stack</li>
+                      <li>Postgres</li>
+                      <li>Express</li>
+                      <li>React</li>
+                      <li>Node.JS</li>
+                    </ul>
+                    <h3 className="text-md md:text-3xl">
+                      Room for improvement:
+                    </h3>
+                    <ul className="text-xs list-disc list-inside">
+                      <li>Figure out backend</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ******************    Soap Recipe App     ****************** */}
+        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+          <div className="text-slate-300 my-5">
+            <h3 className="text-md md:text-4xl text-center text-orange-300">
+              Men's Salon
+            </h3>
+            <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
+              This applicationt allows users to use a soap recipe application to
+              view,create, edit and delete custom recipes.
+            </p>
+
+            {/* Main Div */}
+            <div className="flex flex-col md:flex-row justify-center md:m-5">
+              {/* Left side section of larger screen */}
+              <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
+                <div className="w-full mx-auto">
+                  <img
+                    className="w-full border-8 border-amber-200 mx-auto h-full"
+                    src={Soap}
+                    alt={"Soap"}
+                  />
+                </div>
+
+                <div className="flex flex-row justify-evenly text-center text-xs my-3">
+                  <a
+                    href="https://caroleatierney.github.io/Soap_Scents/"
+                    class="website-link"
+                    title="View Live"
+                    target="_blank"
+                  >
+                    Live Website
+                  </a>
+                  <a
+                    href="https://github.com/caroleatierney/Soap_Scents"
+                    class="website-link"
+                    title="View Code"
+                    target="_blank"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+
+              {/* Right side section of larger screen */}
+
+              <div className="md:pl-10 flex flex-col md:w-1/2 items-center justify-center mx-auto text-md">
+                <div className="flex flex-col pt-5">
+                  {/* Horizontal list container */}
+                  <div className="pb-3">
+                    <h3 className="text-md md:text-lg lg:text-3xl">
+                      Notable features:
+                    </h3>
+                    <ul>
+                      <li>
+                        Website and data are hosted on Heroku - Need to figure
+                        this out - can you keep a backend?
+                      </li>
+                      <li>Uses Google Maps</li>
+                      <li>Social Icons link to websites</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h3 className="text-md md:text-3xl">Technologies used:</h3>
+                    <ul className="text-xs list-disc list-inside">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Javascript</li>
+                      <li>ExpressJS</li>
+                      <li>Node.js</li>
+                      <li>Mongoose</li>
+                      <li>EJS</li>
+                      <li>Mongo DB</li>
+                      <li>CSS Grid</li>
+                      <li>Full CRUD</li>
+                      <li>7 RESTful Routes</li>
+                    </ul>
+                    <h3 className="text-md md:text-3xl">
+                      Room for improvement:
+                    </h3>
+                    <ul className="text-xs list-disc list-inside">
+                      <li>Add a video</li>
+                      <li>Lye to Water calculator</li>
+                      <li>Add personal Soap Page</li>
+                      <li>Ability to Purchase </li>
+                      <li>Login</li>
+                      <li>It's ugly!</li>
+                    </ul>
+                    v
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ******************    South Shore Men's Salon     ****************** */}
+        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+          <div className="text-slate-300 my-5">
+            <h3 className="text-md md:text-4xl text-center text-orange-300">
+              Men's Salon
+            </h3>
+            <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
+              Before I took my bootcamp, I made a simple website for my
+              hairdresser. I was able to make the website following online
+              tutorials. I have made modifications to it since graduating
+              Bootcamp.
+            </p>
+
+            {/* Main Div */}
+            <div className="flex flex-col md:flex-row justify-center md:m-5">
+              {/* Left side section of larger screen */}
+              <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
+                <div className="w-full mx-auto">
+                  <img
+                    className="w-full border-8 border-amber-200 mx-auto h-full"
+                    src={Maggie}
+                    alt={"Men's Salon Image"}
+                  />
+                </div>
+
+                <div className="flex flex-row justify-evenly text-center text-xs my-3">
+                  <a
+                    href="https://maggies-cuts.onrender.com/index"
+                    class="website-link"
+                    title="View Live"
+                    target="_blank"
+                  >
+                    Live Website
+                  </a>
+                  <a
+                    href="https://github.com/caroleatierney/Maggies_Cuts"
+                    class="website-link"
+                    title="View Code"
+                    target="_blank"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+
+              {/* Right side section of larger screen */}
+
+              <div className="md:pl-10 flex flex-col md:w-1/2 items-center justify-center mx-auto text-md">
+                <div className="flex flex-col pt-5">
+                  {/* Horizontal list container */}
+                  <div className="pb-3">
+                    <h3 className="text-md md:text-lg lg:text-3xl">
+                      Notable features:
+                    </h3>
+                    <ul>
+                      <li>Google map link</li>
+                      <li>Social Icons with Links</li>
+                      <li>Link to Appointment Software</li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h3 className="text-md md:text-3xl">Technologies used:</h3>
+                    <ul className="text-xs list-disc list-inside">
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>PHP</li>
+                      <li>Deployed on Render</li>
+                    </ul>
+                    <h3 className="text-md md:text-3xl">
+                      Room for improvement:
+                    </h3>
+                    <ul className="text-xs list-disc list-inside">
+                      <li>Nicer styling</li>
+                    </ul>
+                    v
                   </div>
                 </div>
               </div>

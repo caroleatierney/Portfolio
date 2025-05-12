@@ -13,11 +13,11 @@ export default function App() {
     <Router>
       <div className="flex flex-col w-full mx-auto bg-gray-200 font-poppins">
         <div className="flex flex-col md:flex-row justify-center bg-slate-800 py-4">
-          <div className="flex justify-center w-full md:w-1/3">
+          <div className="flex justify-center w-full md:w-1/4">
             <Header />
           </div>
 
-          <div className="flex w-full md:w-2/3">
+          <div className="flex w-full md:w-3/4">
             <NavBar />
           </div>
         </div>
