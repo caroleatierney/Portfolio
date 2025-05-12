@@ -21,8 +21,8 @@ export default function Projects() {
             </h3>
             <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
               This is an ongoing project that will hold photos and videos from
-              excursions with The Fun Bunch! I built th based on a react project
-              I started on my Promineo Boot Camp.
+              excursions with The Fun Bunch! I built this based on a react
+              project I started during my Promineo Boot Camp.
             </p>
 
             {/* Main Div */}
@@ -74,10 +74,11 @@ export default function Projects() {
                       Full CRUD - Users can add, update and delete photos and
                       comments
                     </li>
-                    <li>Fully Responsive</li>
                   </ul>
 
-                  <h3 className="text-md md:text-3xl pt-10">Technologies used:</h3>
+                  <h3 className="text-md md:text-3xl pt-10">
+                    Technologies used:
+                  </h3>
                   <ul className="text-xs list-disc list-inside">
                     <li>HTML</li>
                     <li>Tailwind</li>
@@ -163,14 +164,15 @@ export default function Projects() {
                       Full CRUD - Users can add, update and delete photos and
                       comments
                     </li>
-                    <li>Fully Reponsive</li>
                     <li>
                       When you click on a photo, you can see comments people
                       have left
                     </li>
                   </ul>
 
-                  <h3 className="text-md md:text-3xl pt-5">Technologies used:</h3>
+                  <h3 className="text-md md:text-3xl pt-5">
+                    Technologies used:
+                  </h3>
                   <ul className="text-xs list-disc list-inside">
                     <li>HTML</li>
                     <li>Tailwind</li>
@@ -182,7 +184,9 @@ export default function Projects() {
                     <li>React Components</li>
                   </ul>
 
-                  <h3 className="text-md md:text-3xl pt-5">Room for improvement:</h3>
+                  <h3 className="text-md md:text-3xl pt-5">
+                    Room for improvement:
+                  </h3>
                   <ul className="text-xs list-disc list-inside">
                     <li>Add search back</li>
                     <li>Allow to search for any location and radius</li>
@@ -205,8 +209,8 @@ export default function Projects() {
               Digital Portfolio - Camryn
             </h3>
             <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
-              This was a React project for a friend that is strictly HTML and
-              Tailwind.
+              This is a React project for a friend that was about to graduate.
+              It is strictly HTML and Tailwind.
             </p>
 
             {/* Main Div */}
@@ -253,7 +257,9 @@ export default function Projects() {
                     <li>Fully Reponsive</li>
                   </ul>
 
-                  <h3 className="text-md md:text-3xl pt-10">Technologies used:</h3>
+                  <h3 className="text-md md:text-3xl pt-10">
+                    Technologies used:
+                  </h3>
                   <ul className="text-xs list-disc list-inside">
                     <li>HTML</li>
                     <li>Tailwind</li>
@@ -263,9 +269,12 @@ export default function Projects() {
                     <li>EmailJS</li>
                   </ul>
 
-                  <h3 className="text-md md:text-3xl pt-10">Room for improvement:</h3>
+                  <h3 className="text-md md:text-3xl pt-10">
+                    Room for improvement:
+                  </h3>
                   <ul className="text-xs list-disc list-inside">
                     <li>Make Responsive</li>
+                    <li>Event Proposal Carousel - Make 1/2?</li>
                     <li>Fix main image</li>
                   </ul>
                 </div>
@@ -282,8 +291,8 @@ export default function Projects() {
               Digital Portfolio - Jocelyn
             </h3>
             <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
-              This was a React project for a friend that is strictly HTML and
-              This was an individual project that uses HTML and Bootstrap 4.
+              This is an individual project for my daughter who ws about to
+              graduate. It uses HTML and Bootstrap 4.
             </p>
 
             {/* Main Div */}
@@ -331,17 +340,27 @@ export default function Projects() {
                     <li>Bootstrap grid</li>
                     <li>Font Awesome</li>
                   </ul>
-              
-                  <h3 className="text-md md:text-3xl pt-10">Technologies used:</h3>
+
+                  <h3 className="text-md md:text-3xl pt-10">
+                    Technologies used:
+                  </h3>
                   <ul className="text-xs list-disc list-inside">
                     <li>HTML</li>
                     <li>Bootstrap only for styling (no CSS)</li>
                     <li>EmailJS</li>
                   </ul>
 
-                  <h3 className="text-md md:text-3xl pt-10">Room for improvement:</h3>
+                  <h3 className="text-md md:text-3xl pt-10">
+                    Room for improvement:
+                  </h3>
                   <ul className="text-xs list-disc list-inside">
                     <li>Smaller, better image</li>
+                    <li>About me and contact words larger</li>
+                    <li>About me page larger</li>
+                    <li>Ad a link to her resume</li>
+                    <li>Search for other art work </li>
+                    <li>Nana's sign</li>
+                    <li>Sal's sign</li>
                   </ul>
                 </div>
               </div>

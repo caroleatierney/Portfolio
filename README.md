@@ -6,16 +6,23 @@ npm run dev
 Push changes to GitHub:
 git add, commit, push
 npm run build - and wait for it to finish
-this is then automatic:
-> carole-portfolio@1.0.0 postbuild
-> npm run deploy
+
+Carole@MacBookPro Portfolio % npm run build
+
+> carole-portfolio@1.0.0 build
+> vite build
+
+vite v6.3.5 building for production...
+
+npm run deploy
+Carole@MacBookPro Portfolio % npm run deploy
+
 > carole-portfolio@1.0.0 deploy
 > gh-pages -d build
 
+Published
 
   "homepage": "https://caroleatierney.github.io/Portfolio",
-
-NPM RUN BUILD for Production - not NPM RUN DEPLOY
 
 <!-- Deployed - week 16 - Paris App - changed repository name -->
 <!-- Deployed - week 15 - Dog api - changed repository name -->
@@ -26,11 +33,11 @@ NPM RUN BUILD for Production - not NPM RUN DEPLOY
 <!-- Deployed - week 8 - The Nina Story - changed repository name -->
 <!-- Deployed - week 9 - Digital Portfolio - changed repository name -->
 
-<!-- Castle Rock - add video - Changed Repo Name -->
-<!-- Soap Scents - add video - working on backend -->
+<!-- Castle Rock - Changed Repo Name -->
+<!-- Soap Scents -->
 
 <!-- Deployed - week 13 - Boring - don't use or add functionality - login form -->
-<!-- week 7 - not deployed on github - The Nina Story HTML - DON'T USE -->
+<!-- week 7 - The Nina Story HTML - DON'T USE -->
 <!-- week 6 - not deployed on github - War Card Game -->
 <!-- week 5 - not deployed on github - Album and Songs -->
 <!-- week 4 - array practice - DONT NEED -->
@@ -38,9 +45,9 @@ NPM RUN BUILD for Production - not NPM RUN DEPLOY
 <!-- week 2  NADA -->
 <!-- week 1  NADA -->
 
-<!-- Beaches - add video -->
-<!-- Men's Salon - add video test -->
-<!-- code pen -->
+<!-- Beaches -->
+<!-- Men's Salon -->
+
 
    <!-- - - - - - - - - - - - Mobile - - - - - - - - - - - ->
     <!-- <nav id="mobile-nav">

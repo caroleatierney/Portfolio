@@ -8,14 +8,21 @@ import Soap from "./../Assets/SoapScents.png";
 import Marshfield from "./../Assets/MarBeachRec.png";
 import Planner from "./../Assets/DinnerPlanner.png";
 import TicTacToe from "./../Assets/TicTacToe.png";
+import SK from "./../Assets/CastleRockReview.jpeg";
 
 export default function BootCamp() {
   return (
     <>
       <div className="m-2">
         <h3 className="my-5 text-lg md:text-4xl text-center">
-          Project Experience
+          Bootcamp Projects
         </h3>
+        <p className="flex my-3 test-sm md:text-lg text-center font-extralight mx-auto w-1/2">
+          These are projects I made while I was attending bootcamps and one
+          before I even started. My goal is to go back through them, make them
+          fully responsive and use Mongo DB where ever I am using Mock API.
+        </p>
+
         {/* ******************    Nina's Website     ****************** */}
 
         <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto">
@@ -248,7 +255,7 @@ export default function BootCamp() {
                     <h3 className="text-md md:text-lg lg:text-3xl">
                       Notable features:
                     </h3>
-                    <ul>
+                    <ul className="text-xs list-disc list-inside">
                       <li>This application uses JSON Server</li>
                       <li>
                         Full CRUD - Users can add, update and delete photos and
@@ -335,7 +342,7 @@ export default function BootCamp() {
                     <h3 className="text-md md:text-lg lg:text-3xl">
                       Notable features:
                     </h3>
-                    <ul>
+                    <ul className="text-xs list-disc list-inside">
                       <li>Reviews</li>
                       <li>Stars</li>
                     </ul>
@@ -417,7 +424,7 @@ export default function BootCamp() {
                     <h3 className="text-md md:text-lg lg:text-3xl">
                       Notable features:
                     </h3>
-                    <ul>
+                    <ul className="text-xs list-disc list-inside">
                       <li>
                         This app displays tide information from RapidAPI Tides
                       </li>
@@ -452,7 +459,95 @@ export default function BootCamp() {
             </div>
           </div>
         </div>
-       
+
+        {/* ******************    Castle Rock     ****************** */}
+        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+          <div className="text-slate-300 my-5">
+            <h3 className="text-md md:text-4xl text-center text-yellow-700">
+              Castle Rock Review
+            </h3>
+            <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
+              This application displays the works of Stephen King.
+            </p>
+
+            {/* Main Div */}
+            <div className="flex flex-col md:flex-row justify-center md:m-5">
+              {/* Left side section of larger screen */}
+              <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
+                <div className="w-full mx-auto">
+                  <img
+                    className="w-full border-8 border-yellow-700 mx-auto h-full"
+                    src={SK}
+                    alt={"Castle Rock Review"}
+                  />
+                </div>
+
+                <div className="flex flex-row justify-evenly text-center text-xs my-3">
+                  <a
+                    href="https://caroleatierney.github.io/Castle_Rock_Review"
+                    class="website-link"
+                    title="View Live"
+                    target="_blank"
+                  >
+                    Live Website
+                  </a>
+                  <a
+                    href="https://github.com/caroleatierney/Castle_Rock_Review/"
+                    class="website-link"
+                    title="View Code"
+                    target="_blank"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+
+              {/* Right side section of larger screen */}
+
+              <div className="md:pl-10 flex flex-col md:w-1/2 items-center justify-center mx-auto text-md">
+                <div className="flex flex-col pt-5">
+                  {/* Horizontal list container */}
+                  <div className="pb-3">
+                    <h3 className="text-md md:text-lg lg:text-3xl">
+                      Notable features:
+                    </h3>
+                    <ul className="text-xs list-disc list-inside">
+                      <li>
+                        The book carousel was generated using vanilla JavaScript
+                      </li>
+                      <li>
+                        Google books API was used to gather the book information
+                      </li>
+                      <li>
+                        The sorted book list modals are generated with custom
+                        CSS and JavaScript to append the data to the DOM
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div>
+                    <h3 className="text-md md:text-3xl">Technologies used:</h3>
+                    <ul className="text-xs list-disc list-inside">
+                      <li>AJAX</li>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>jQuery</li>
+                      <li>JavaScript</li>
+                      <li>Node.JS</li>
+                    </ul>
+                    <h3 className="text-md md:text-3xl">
+                      Room for improvement:
+                    </h3>
+                    <ul className="text-xs list-disc list-inside">
+                      <li>Reponsive?</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* ******************    Tic-Tac-Toe     ****************** */}
         <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
           <div className="text-slate-300 my-5">
@@ -506,7 +601,7 @@ export default function BootCamp() {
                     <h3 className="text-md md:text-lg lg:text-3xl">
                       Notable features:
                     </h3>
-                    <ul>
+                    <ul className="text-xs list-disc list-inside">
                       <li>Bootstrap Table</li>
                       <li>Bootstrap Form</li>
                     </ul>
@@ -584,7 +679,7 @@ export default function BootCamp() {
                     <h3 className="text-md md:text-lg lg:text-3xl">
                       Notable features:
                     </h3>
-                    <ul>
+                    <ul className="text-xs list-disc list-inside">
                       <li>
                         Website and data are hosted on Heroku - Need to figure
                         this out - can you keep a backend?
@@ -681,7 +776,7 @@ export default function BootCamp() {
                     <h3 className="text-md md:text-lg lg:text-3xl">
                       Notable features:
                     </h3>
-                    <ul>
+                    <ul className="text-xs list-disc list-inside">
                       <li>Although clunky, a lot of great DOM manipulation</li>
                     </ul>
                   </div>
@@ -785,7 +880,6 @@ export default function BootCamp() {
                     <ul className="text-xs list-disc list-inside">
                       <li>Nicer styling</li>
                     </ul>
-                    v
                   </div>
                 </div>
               </div>
