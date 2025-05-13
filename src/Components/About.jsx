@@ -27,12 +27,16 @@ export default function About() {
         <h3 className="text-red-500">
           - Vertical spacing on right side of Projects
         </h3>
+        <h3 className="text-red-500">
+          - Add Face in about
+        </h3>
+
         <h3 className="text-red-500">- Make Responsive</h3>
-        <h3 className="text-red-500">- Add Asleigh's 15 minutes of fame</h3>
-        <h3 className="text-red-500">- Add Mike's Field goal</h3>
+        <h3 className="text-red-500">- Add Asleigh's 15 minutes of fame to post - how can you make it impressive</h3>
+        <h3 className="text-red-500">- Add Mike's Field goal - Make impressive</h3>
         <h3 className="text-red-500">
           - Look at Before GA Repository: Artwork @
-          https://caroleatierney.github.io/Before-GA-Repository/
+          https://caroleatierney.github.io/Before-GA-Repository/ - Add an artwork carousel
         </h3>
       </div>
     </>

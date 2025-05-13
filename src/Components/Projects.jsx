@@ -3,6 +3,8 @@ import TheFunBunch from "./../Assets/TheFunBunch.png";
 import ParisAdventure from "./../Assets/ParisAdventure.png";
 import Camryn from "./../Assets/Camryn.png";
 import Jocelyn from "./../Assets/Jocelyn.png";
+import BCLogo from "./../Assets/BCLogo.png";
+
 
 export default function Projects() {
   return (
@@ -11,9 +13,7 @@ export default function Projects() {
         <h3 className="my-5 text-lg md:text-4xl text-center">
           Project Experience
         </h3>
-
         {/* ******************    The Fun Bunch     ****************** */}
-
         <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 mt-5 mb-10">
           <div className="text-slate-300 mb-5">
             <h3 className="text-md md:text-4xl text-center text-cyan-500">
@@ -75,7 +75,6 @@ export default function Projects() {
                       comments
                     </li>
                   </ul>
-
                   <h3 className="text-md md:text-3xl pt-10">
                     Technologies used:
                   </h3>
@@ -89,14 +88,21 @@ export default function Projects() {
                     <li>Render</li>
                     <li>React Components</li>
                   </ul>
+                  '{" "}
+                  <h3 className="text-md md:text-3xl pt-5">
+                    Room for improvement:
+                  </h3>
+                  <ul className="text-xs list-disc list-inside">
+                    <li>color titles still on for sizing</li>
+                    <li>Check responsiveness</li>
+                  </ul>
+                  '
                 </div>
               </div>
             </div>
           </div>
         </div>
-
         {/* ******************    Paris Trip App     ****************** */}
-
         <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
           <div className="text-slate-300 mb-5">
             <h3 className="text-md md:text-4xl text-center text-red-300">
@@ -200,9 +206,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-
         {/* ******************    Camryn's Portfolio     ****************** */}
-
         <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
           <div className="text-slate-300 mb-5">
             <h3 className="text-md md:text-4xl text-center text-red-800">
@@ -282,9 +286,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-
         {/* ******************    Jocelyn's Portfolio     ****************** */}
-
         <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
           <div className="text-slate-300 mb-5">
             <h3 className="text-md md:text-4xl text-center text-indigo-200">
@@ -362,6 +364,60 @@ export default function Projects() {
                     <li>Nana's sign</li>
                     <li>Sal's sign</li>
                   </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ******************    BC Goal     ****************** */}
+
+        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
+          <div className="text-slate-300 mb-5">
+            <h3 className="text-md md:text-4xl text-center text-yellow-200">
+              Boston College Field Goal
+            </h3>
+            <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
+              This is a tribute to my husband who kicked a field goal at Boston
+              College and won a car.
+            </p>
+
+            {/* Main Div */}
+            <div className="flex flex-col md:flex-row justify-center md:m-5">
+              {/* Left side section of larger screen */}
+              <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
+                <div className="w-full mx-auto">
+                  <img
+                    className="w-full border-8 border-black mx-auto h-full"
+                    src={BCLogo}
+                    alt={"Boston College Logo"}
+                  />
+                </div>
+
+                <div className="flex flex-row justify-evenly text-center text-xs my-3">
+                  <a
+                    href="https://github.com/caroleatierney/BCGoal"
+                    title="View Client Code"
+                    target="_blank"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+
+              {/* Right side section of larger screen */}
+
+              <div className="md:pl-10 flex flex-col md:w-1/2 items-center text-lg justify-evenly">
+                {/* Vertical list container */}
+
+                <div className="pb-3 text-3xl">
+                    <a
+                      href="https://caroleatierney.github.io/BCGoal/"
+                      title="View Live"
+                      target="_blank"
+                    >
+                      Field Goal Video
+                    </a>
                 </div>
               </div>
             </div>
