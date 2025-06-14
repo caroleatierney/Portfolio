@@ -396,6 +396,13 @@ export default function Projects() {
 
                 <div className="flex flex-row justify-evenly text-center text-xs my-3">
                   <a
+                    href="https://caroleatierney.github.io/BCGoal/"
+                    title="View Live"
+                    target="_blank"
+                  >
+                    Live Website
+                  </a>
+                  <a
                     href="https://github.com/caroleatierney/BCGoal"
                     title="View Client Code"
                     target="_blank"
@@ -407,17 +414,33 @@ export default function Projects() {
 
               {/* Right side section of larger screen */}
 
-              <div className="md:pl-10 flex flex-col md:w-1/2 items-center text-lg justify-evenly">
+              {/* Right side section of larger screen */}
+
+              <div className="md:pl-10 flex flex-col md:w-1/2 items-center text-md justify-evenly">
                 {/* Vertical list container */}
 
-                <div className="pb-3 text-3xl">
-                    <a
-                      href="https://caroleatierney.github.io/BCGoal/"
-                      title="View Live"
-                      target="_blank"
-                    >
-                      Field Goal Video
-                    </a>
+                <div className="pb-3">
+                  <h3 className="text-md md:text-lg lg:text-3xl">
+                    Notable features:
+                  </h3>
+                  <ul className="list-disc list-inside text-xs">
+                    <li>Not much!</li>
+                  </ul>
+
+                  <h3 className="text-md md:text-3xl pt-10">
+                    Technologies used:
+                  </h3>
+                  <ul className="text-xs list-disc list-inside">
+                    <li>React</li>
+                    <li>Tailwind for styling (no CSS)</li>
+                  </ul>
+
+                  <h3 className="text-md md:text-3xl pt-10">
+                    Room for improvement:
+                  </h3>
+                  <ul className="text-xs list-disc list-inside">
+                    <li>Nothing - just a simple website</li>
+                  </ul>
                 </div>
               </div>
             </div>
