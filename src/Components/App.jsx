@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "../Components/Header";
-import Home from "../Components/Home";
+// import Home from "../Components/Home";
 import About from "../Components/About";
 import NavBar from "../Components/NavBar";
 import Projects from "../Components/Projects";
@@ -27,7 +27,7 @@ export default function App() {
         </div>
         
         <Routes>
-          <Route path="/" element={<Home />} />
+          {/* <Route path="/" element={<Home />} /> */}
           <Route path="/Projects" element={<Projects />} />
           <Route path="/BootCamp" element={<BootCamp />} />
         </Routes>
@@ -37,3 +37,5 @@ export default function App() {
     </Router>
   );
 }
+
+

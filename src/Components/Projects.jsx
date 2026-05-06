@@ -11,10 +11,12 @@ export default function Projects() {
     <>
       <div className="m-2 flex flex-col">
         <h3 className="my-5 text-lg md:text-4xl text-center">
-          Project Experience
+          Post BootCamp Projects
         </h3>
+
         {/* ******************    The Fun Bunch     ****************** */}
-        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 mt-5 mb-10">
+
+        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
           <div className="text-slate-300 mb-5">
             <h3 className="text-md md:text-4xl text-center text-cyan-500">
               The Fun Bunch
@@ -37,7 +39,7 @@ export default function Projects() {
                   />
                 </div>
 
-                <div className="flex flex-row justify-evenly text-center text-xs my-3">
+                <div className="flex flex-row justify-evenly text-center text-xs md:text-xl my-3">
                   <a
                     href="https://thefunbunch-client.onrender.com/"
                     title="View Live"
@@ -102,7 +104,9 @@ export default function Projects() {
             </div>
           </div>
         </div>
+
         {/* ******************    Paris Trip App     ****************** */}
+
         <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
           <div className="text-slate-300 mb-5">
             <h3 className="text-md md:text-4xl text-center text-red-300">
@@ -129,7 +133,7 @@ export default function Projects() {
                   />
                 </div>
 
-                <div className="flex flex-row justify-evenly text-center text-xs my-3">
+                <div className="flex flex-row justify-evenly text-center text-xs md:text-xl my-3">
                   <a
                     href="https://parisadventure-client.onrender.com"
                     className="website-link"
@@ -229,7 +233,7 @@ export default function Projects() {
                   />
                 </div>
 
-                <div className="flex flex-row justify-evenly text-center text-xs my-3">
+                <div className="flex flex-row justify-evenly text-center text-xs md:text-xl my-3">
                   <a
                     href="https://caroleatierney.github.io/Camryn-Portfolio/"
                     title="View Live"
@@ -286,7 +290,9 @@ export default function Projects() {
             </div>
           </div>
         </div>
+
         {/* ******************    Jocelyn's Portfolio     ****************** */}
+
         <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
           <div className="text-slate-300 mb-5">
             <h3 className="text-md md:text-4xl text-center text-indigo-200">
@@ -309,7 +315,7 @@ export default function Projects() {
                   />
                 </div>
 
-                <div className="flex flex-row justify-evenly text-center text-xs my-3">
+                <div className="flex flex-row justify-evenly text-center text-xs md:text-xl my-3">
                   <a
                     href="https://caroleatierney.github.io/Jocelyn-Portfolio/"
                     title="View Live"
@@ -374,10 +380,10 @@ export default function Projects() {
 
         <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
           <div className="text-slate-300 mb-5">
-            <h3 className="text-md md:text-4xl text-center text-yellow-200">
+            <h3 className="text-md md:text-5xl text-center text-yellow-100">
               Boston College Field Goal
             </h3>
-            <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
+            <p className="m-3 text-center text-xs md:text-2xl p-2 md:w-3/4 mx-auto">
               This is a tribute to my husband who kicked a field goal at Boston
               College and won a car.
             </p>
@@ -394,7 +400,7 @@ export default function Projects() {
                   />
                 </div>
 
-                <div className="flex flex-row justify-evenly text-center text-xs my-3">
+                <div className="flex flex-row justify-evenly text-center text-xs md:text-xl my-3">
                   <a
                     href="https://caroleatierney.github.io/BCGoal/"
                     title="View Live"
@@ -411,8 +417,6 @@ export default function Projects() {
                   </a>
                 </div>
               </div>
-
-              {/* Right side section of larger screen */}
 
               {/* Right side section of larger screen */}
 

@@ -62,3 +62,23 @@ Published
         <a title="View Resume" target="_blank" href="dist/Assets/Resume 2023.pdf" class="contact-icon"
             style="color: white">Resume</a>
     </section> -->
+          <h3 className="text-red-500 text-sm md:text-base">
+            This Portfolio and all of the projects are a work in Progress.
+          </h3>
+          <h3 className="text-red-500">
+            Since no one will ever look at this, I will keep my checklist here.
+          </h3>
+          <h3 className="text-red-500">Checklist to fix next:</h3>
+          <h3 className="text-red-500">- Make Responsive</h3>
+          <h3 className="text-red-500">
+            - Add Ashleigh's 15 minutes of fame to post - how can you make it
+            impressive
+          </h3>
+          <h3 className="text-red-500">
+            - Finish Mike's Field goal - Make impressive
+          </h3>
+          <h3 className="text-red-500">
+            - Look at Before GA Repository: Artwork @
+            https://caroleatierney.github.io/Before-GA-Repository/ - Add an
+            artwork carousel
+          </h3>

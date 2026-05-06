@@ -115,7 +115,7 @@ export default function NavBar() {
               href="https://www.github.com/caroleatierney"
               target="_blank"
             >
-              <i class="fab fa-github"></i>
+              <i className="fab fa-github"></i>
             </a>
           </div>
 

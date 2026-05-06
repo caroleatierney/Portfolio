@@ -5,7 +5,7 @@ import Nina from "./../Assets/Nina.png";
 import Maggie from "./../Assets/MensSalon.jpeg";
 import Gene from "./../Assets/GeneShalit.png";
 import Soap from "./../Assets/SoapScents.png";
-import Marshfield from "./../Assets/MarBeachRec.png";
+import MarshVegas from "./../Assets/MarshVegas.jpeg";
 import Planner from "./../Assets/DinnerPlanner.png";
 import TicTacToe from "./../Assets/TicTacToe.png";
 import SK from "./../Assets/CastleRockReview.jpeg";
@@ -13,7 +13,7 @@ import SK from "./../Assets/CastleRockReview.jpeg";
 export default function BootCamp() {
   return (
     <>
-      <div className="m-2">
+      <div className="m-2 flex flex-col">
         <h3 className="my-5 text-lg md:text-4xl text-center">
           Bootcamp Projects
         </h3>
@@ -25,7 +25,7 @@ export default function BootCamp() {
 
         {/* ******************    Nina's Website     ****************** */}
 
-        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto">
+        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 mt-5 mb-10">
           <div className="text-slate-300 mb-5">
             <h3 className="text-md md:text-4xl text-center text-cyan-500">
               Nina
@@ -121,7 +121,7 @@ export default function BootCamp() {
 
         {/* ******************    Dog App     ****************** */}
 
-        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto">
+        <div className="bg-slate-600 border-8 border-slate-900 w-7/8 my-10 mx-auto">
           <div className="text-slate-300 mb-5">
             <h3 className="text-md md:text-4xl text-center text-pink-600">
               Dog App
@@ -203,8 +203,8 @@ export default function BootCamp() {
           </div>
         </div>
 
-        {/* ******************    Butterflies of New England     ****************** */}
-        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+        {/* ******************    Butterflies of New England    ****************** */}
+        <div className="bg-slate-600 border-8 border-slate-900 w-7/8 my-10 mx-auto">
           <div className="text-slate-300 my-5">
             <h3 className="text-md md:text-4xl text-center text-orange-300">
               Butterflies of New England
@@ -291,7 +291,8 @@ export default function BootCamp() {
         </div>
 
         {/* ******************    Movie Review     ****************** */}
-        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+
+        <div className="bg-slate-600 border-8 border-slate-900 mt-10 w-7/8 my-10 mx-auto">
           <div className="text-slate-300 my-5">
             <h3 className="text-md md:text-4xl text-center text-yellow-700">
               Movie Review
@@ -372,7 +373,7 @@ export default function BootCamp() {
         </div>
 
         {/* ******************    Marshfield Travel App     ****************** */}
-        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+        <div className="bg-slate-600 border-8 border-slate-900 mt-10 w-7/8 my-10 mx-auto">
           <div className="text-slate-300 my-5">
             <h3 className="text-md md:text-4xl text-center text-blue-400">
               Marshfield Travel App
@@ -390,14 +391,14 @@ export default function BootCamp() {
                 <div className="w-full mx-auto">
                   <img
                     className="w-full border-8 border-blue-400 mx-auto h-full"
-                    src={Marshfield}
-                    alt={"Marshfield"}
+                    src={MarshVegas}
+                    alt={"MarshVegas"}
                   />
                 </div>
 
                 <div className="flex flex-row justify-evenly text-center text-xs my-3">
                   <a
-                    href="https://caroleatierney.github.io/marbeachrec/"
+                    href="https://marshvegasclient.onrender.com/"
                     class="website-link"
                     title="View Live"
                     target="_blank"
@@ -405,7 +406,7 @@ export default function BootCamp() {
                     Live Website
                   </a>
                   <a
-                    href="https://github.com/caroleatierney/marbeachrec"
+                    href="https://github.com/caroleatierney/MarshVegas"
                     class="website-link"
                     title="View Code"
                     target="_blank"
@@ -461,7 +462,8 @@ export default function BootCamp() {
         </div>
 
         {/* ******************    Castle Rock     ****************** */}
-        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+
+        <div className="bg-slate-600 border-8 border-slate-900 w-7/8 my-10 mx-auto">
           <div className="text-slate-300 my-5">
             <h3 className="text-md md:text-4xl text-center text-yellow-700">
               Castle Rock Review
@@ -548,8 +550,9 @@ export default function BootCamp() {
           </div>
         </div>
 
-        {/* ******************    Tic-Tac-Toe     ****************** */}
-        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+        {/* ******************    Dinner Planner     ****************** */}
+
+        <div className="bg-slate-600 border-8 border-slate-900 w-7/8 my-10 mx-auto">
           <div className="text-slate-300 my-5">
             <h3 className="text-md md:text-4xl text-center text-teal-600">
               Dinner Planner
@@ -628,7 +631,8 @@ export default function BootCamp() {
         </div>
 
         {/* ******************    Soap Recipe App     ****************** */}
-        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+
+        <div className="bg-slate-600 border-8 border-slate-900 w-7/8 my-10 mx-auto">
           <div className="text-slate-300 my-5">
             <h3 className="text-md md:text-4xl text-center text-green-600">
               Soap Recipe
@@ -723,7 +727,8 @@ export default function BootCamp() {
         </div>
 
         {/* ******************    Tic-Tac-Toe     ****************** */}
-        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+
+        <div className="bg-slate-600 border-8 border-slate-900 w-7/8 my-10 mx-auto">
           <div className="text-slate-300 my-5">
             <h3 className="text-md md:text-4xl text-center text-white">
               Tic-Tac-Toe
@@ -806,7 +811,8 @@ export default function BootCamp() {
         </div>
 
         {/* ******************    South Shore Men's Salon     ****************** */}
-        <div className="bg-slate-600 border-8 border-slate-900 mt-10 mx-auto">
+
+        <div className="bg-slate-600 border-8 border-slate-900 w-7/8 my-10 mx-auto">
           <div className="text-slate-300 my-5">
             <h3 className="text-md md:text-4xl text-center text-amber-200">
               Men's Salon
