@@ -10,16 +10,23 @@ export default function NavBar() {
   return (
     <div className="text-xs md:text-8xl flex flex-col w-full items-center justify-evenly h-full text-gray-300">
       <div className="flex justify-between items-center w-7/8">
-        <Link title="Projects" to="/Projects">
+        <Link
+          title="Projects"
+          to="/Projects"
+          className=" border-8 border-gray-500 dark:border-gray-500 p-6 rounded-lg"
+        >
           Personal Projects
         </Link>
 
-        <Link title="Boot Camp Projects" to="/BootCamp">
-          Bootcamp Projects
+        <Link title="Boot Camp Projects"
+              to="/BootCamp"
+              className=" border-8 border-gray-500 dark:border-gray-500 rounded-lg p-6"
+          >
+           Bootcamp Projects
         </Link>
 
         <a
-          className="flex justify-center"
+          className="flex justify-center border-8 border-gray-500 dark:border-gray-500 rounded-lg p-6 text-center"
           title="View Resume"
           href={Resume}
           target="_blank"
@@ -33,7 +40,7 @@ export default function NavBar() {
             onClick={() => setDropdownOpen(!dropdownOpen)}
             id="dropdownDefaultButton"
             data-dropdown-toggle="dropdown"
-            className="text-gray-300 bg-slate-800 hover:bg-slate-800 focus:ring-1 focus:outline-none focus:ring-slate-300 font-medium rounded-lg text-md px-5 py-1 text-center inline-flex items-center dark:bg-gray-200 dark:hover:bg-slate-800 dark:focus:ring-slate-800 border-1 border-gray-500 dark:border-gray-500"
+            className="text-gray-300 bg-slate-800 hover:bg-slate-800 focus:ring-1 focus:outline-none focus:ring-slate-300 font-medium rounded-lg text-md px-5 text-center inline-flex items-center dark:bg-gray-200 dark:hover:bg-slate-800 dark:focus:ring-slate-800 border-8 border-gray-500 dark:border-gray-500 p-6"
             type="button"
           >
             Certificates
@@ -97,20 +104,19 @@ export default function NavBar() {
             </ul>
           </div>
         </div>
-        
-        <div className="flex flex-col">
-          <div className="flex items-center">
+
+        <div className="flex flex-row gap-40 med:flex-col">
+          <div>
             <a
               title="Contact Me"
               href="https://www.linkedin.com"
               target="_blank"
             >
-              <i className="fab fa-linkedin flex justify-center"></i>
+              <i className="fab fa-linkedin"></i>
             </a>
           </div>
-          <div className="flex items-center">
+          <div>
             <a
-              className="flex justify-center"
               title="View GitHub"
               href="https://www.github.com/caroleatierney"
               target="_blank"
@@ -118,7 +124,6 @@ export default function NavBar() {
               <i className="fab fa-github"></i>
             </a>
           </div>
-
         </div>
       </div>
     </div>
