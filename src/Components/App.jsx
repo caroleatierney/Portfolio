@@ -7,6 +7,7 @@ import NavBar from "../Components/NavBar";
 import Projects from "../Components/Projects";
 import BootCamp from "../Components/BootCamp";
 import Footer from "../Components/Footer";
+import 'flowbite';
 
 export default function App() {
   return (
