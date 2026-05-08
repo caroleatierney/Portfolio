@@ -5,9 +5,9 @@ export default function About() {
   return (
     <div className="flex flex-col md:flex-row items-center mx-auto">
       <div className="w-full md:w-2/3 text-center text-gray-900 p-10">
-        <h3 className="text-xs md:text-8xl lg:text-4xl">About</h3>
+        <h3 className="text-xs md:text-8xl lg:text-2xl">About</h3>
 
-        <p className="font-extralight text-xs sm:text-sm md:text-2xl pt-10 leading-relaxed">
+        <p className="font-extralight text-xs sm:text-sm md:text-md pt-10 leading-relaxed">
           I am an aspiring web developer working on mostly personal projects. I
           am no longer seeking a Front End Web Developer position, as I am back
           on the AS400 - Green Screen and all! I have experience in full stack
@@ -16,7 +16,7 @@ export default function About() {
           Bulma, Git, Heroku, MongoDB, PostgreSQL, and jQuery.
         </p>
 
-        <p className="font-extralight text-xs sm:text-sm md:text-2xl pt-36 leading-relaxed">
+        <p className="font-extralight text-xs sm:text-sm md:text-md pt-36 leading-relaxed">
           In my spare time, I enjoy painting murals, making cold process soap,
           and hanging out with my mini Aussie, Nina. Please take a look at some
           of my websites! This Website uses React, Flowbite React, Tailwind, and
