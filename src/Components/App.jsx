@@ -23,7 +23,7 @@ export default function App() {
           </div>
         </div>
 
-        <div className="bg-slate-200 flex flex-col justify-center w-full mx-auto pt-2">
+        <div className="bg-slate-200 ">
           <About />
         </div>
         

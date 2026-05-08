@@ -13,20 +13,20 @@ export default function NavBar() {
         <Link
           title="Projects"
           to="/Projects"
-          className=" border-8 border-gray-500 dark:border-gray-500 p-6 rounded-lg"
+          className=" border-3 border-gray-500 dark:border-gray-500 p-3 rounded-lg"
         >
           Personal Projects
         </Link>
 
         <Link title="Boot Camp Projects"
               to="/BootCamp"
-              className=" border-8 border-gray-500 dark:border-gray-500 rounded-lg p-6"
+              className=" border-3 border-gray-500 dark:border-gray-500 rounded-lg p-3"
           >
            Bootcamp Projects
         </Link>
 
         <a
-          className="flex justify-center border-8 border-gray-500 dark:border-gray-500 rounded-lg p-6 text-center"
+          className="flex justify-center border-3 border-gray-500 dark:border-gray-500 rounded-lg p-3 text-center"
           title="View Resume"
           href={Resume}
           target="_blank"
@@ -40,7 +40,7 @@ export default function NavBar() {
             onClick={() => setDropdownOpen(!dropdownOpen)}
             id="dropdownDefaultButton"
             data-dropdown-toggle="dropdown"
-            className="text-gray-300 bg-slate-800 hover:bg-slate-800 focus:ring-1 focus:outline-none focus:ring-slate-300 font-medium rounded-lg text-md px-5 text-center inline-flex items-center dark:bg-gray-200 dark:hover:bg-slate-800 dark:focus:ring-slate-800 border-8 border-gray-500 dark:border-gray-500 p-6"
+            className="text-gray-300 bg-slate-800 hover:bg-slate-800 focus:ring-1 focus:outline-none focus:ring-slate-300 font-medium rounded-lg text-md px-5 text-center inline-flex items-center dark:bg-gray-200 dark:hover:bg-slate-800 dark:focus:ring-slate-800 border-3 border-gray-500 dark:border-gray-500 p-3"
             type="button"
           >
             Certificates
@@ -105,7 +105,7 @@ export default function NavBar() {
           </div>
         </div>
 
-        <div className="flex flex-row gap-40 med:flex-col">
+        <div className="flex flex-row justify-evenly med:flex-col">
           <div>
             <a
               title="Contact Me"
