@@ -16,7 +16,7 @@ export default function About() {
           Bulma, Git, Heroku, MongoDB, PostgreSQL, and jQuery.
         </p>
 
-        <p className="font-extralight text-xs sm:text-sm md:text-lg max-w-screen-9xl pt-36 leading-relaxed mx-auto">
+        <p className="font-extralight text-xs sm:text-sm md:text-lg max-w-screen-9xl pt-10 leading-relaxed mx-auto">
           In my spare time, I enjoy painting murals, making cold process soap,
           and hanging out with my mini Aussie, Nina. Please take a look at some
           of my websites! This Website uses React, Flowbite React, Tailwind, and

@@ -20,6 +20,8 @@ Carole@MacBookPro Portfolio % npm run deploy
 > carole-portfolio@1.0.0 deploy
 > gh-pages -d build
 
+
+serve -s build shows the build folder's version
 Published
 
   "homepage": "https://caroleatierney.github.io/Portfolio",
