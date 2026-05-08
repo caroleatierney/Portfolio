@@ -8,7 +8,7 @@ import Minos from "./../Assets/MinosLabs.pdf";
 export default function NavBar() {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   return (
-    <div className="text-xs md:text-8xl flex flex-col w-full items-center justify-evenly h-full text-gray-300">
+    <div className="text-xs md:text-md flex flex-col w-full items-center justify-evenly h-full text-gray-300">
       <div className="flex justify-between items-center w-7/8">
         <Link
           title="Projects"
