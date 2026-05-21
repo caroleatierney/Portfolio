@@ -1,9 +1,10 @@
 import React from "react";
 import TheFunBunch from "./../Assets/TheFunBunch.png";
 import ParisAdventure from "./../Assets/ParisAdventure.png";
-import Camryn from "./../Assets/Camryn.png";
+import Camryn from "./../Assets/Camryn.jpeg";
 import Jocelyn from "./../Assets/Jocelyn.png";
 import BCLogo from "./../Assets/BCLogo.png";
+import Ashleigh from "./../Assets/ThePriceIsRight.jpeg";
 
 
 export default function Projects() {
@@ -210,7 +211,9 @@ export default function Projects() {
             </div>
           </div>
         </div>
+
         {/* ******************    Camryn's Portfolio     ****************** */}
+
         <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
           <div className="text-slate-300 mb-5">
             <h3 className="text-md md:text-4xl text-center text-red-800">
@@ -299,7 +302,7 @@ export default function Projects() {
               Digital Portfolio - Jocelyn
             </h3>
             <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
-              This is an individual project for my daughter who ws about to
+              This is an individual project for my daughter who was about to
               graduate. It uses HTML and Bootstrap 4.
             </p>
 
@@ -380,14 +383,15 @@ export default function Projects() {
 
         <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
           <div className="text-slate-300 mb-5">
-            <h3 className="text-md md:text-5xl text-center text-yellow-100">
+            <h3 className="text-md md:text-5xl text-center text-amber-50">
               Boston College Field Goal
             </h3>
-            <p className="m-3 text-center text-xs md:text-2xl p-2 md:w-3/4 mx-auto">
-              This is a tribute to my husband who kicked a field goal at Boston
-              College and won a car.
+            <p className="m-3 text-center text-xs md:text-2xl pt-2 md:w-3/4 mx-auto">
+              This is a tribute to my husband who kicked a field goal
             </p>
-
+            <p className="m-3 text-center text-xs md:text-2xl pb-2 md:w-3/4 mx-auto">
+              at Boston College and won a car.
+            </p>
             {/* Main Div */}
             <div className="flex flex-col md:flex-row justify-center md:m-5">
               {/* Left side section of larger screen */}
@@ -410,6 +414,80 @@ export default function Projects() {
                   </a>
                   <a
                     href="https://github.com/caroleatierney/BCGoal"
+                    title="View Client Code"
+                    target="_blank"
+                  >
+                    View Code
+                  </a>
+                </div>
+              </div>
+
+              {/* Right side section of larger screen */}
+
+              <div className="md:pl-10 flex flex-col md:w-1/2 items-center text-md justify-evenly">
+                {/* Vertical list container */}
+
+                <div className="pb-3">
+                  <h3 className="text-md md:text-lg lg:text-3xl">
+                    Notable features:
+                  </h3>
+                  <ul className="list-disc list-inside text-xs">
+                    <li>Not much!</li>
+                  </ul>
+
+                  <h3 className="text-md md:text-3xl pt-10">
+                    Technologies used:
+                  </h3>
+                  <ul className="text-xs list-disc list-inside">
+                    <li>React</li>
+                    <li>Tailwind for styling (no CSS)</li>
+                  </ul>
+
+                  <h3 className="text-md md:text-3xl pt-10">
+                    Room for improvement:
+                  </h3>
+                  <ul className="text-xs list-disc list-inside">
+                    <li>Nothing - just a simple website</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* ******************    Ashleigh's 15     ****************** */}
+
+        <div className="bg-slate-600 border-8 border-slate-900 pt-5 mx-auto w-7/8 my-10">
+          <div className="text-slate-300 mb-5">
+            <h3 className="text-md md:text-5xl text-center text-cyan-300">
+              Ashleigh's 15 Minutes of Fame
+            </h3>
+            <p className="m-3 text-center text-xs md:text-2xl p-2 md:w-3/4 mx-auto">
+              A friend of mine was on the Price Is Right when she was on Spring Break.
+            </p>
+
+            {/* Main Div */}
+            <div className="flex flex-col md:flex-row justify-center md:m-5">
+              {/* Left side section of larger screen */}
+              <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
+                <div className="w-full mx-auto">
+                  <img
+                    className="w-full border-8 border-black mx-auto h-full"
+                    src={Ashleigh}
+                    alt={"The Price Is Right Sign"}
+                  />
+                </div>
+
+                <div className="flex flex-row justify-evenly text-center text-xs md:text-xl my-3">
+                  <a
+                    href="https://caroleatierney.github.io/Ashleighs-15-Minutes-of-Fame/"
+                    title="View Live"
+                    target="_blank"
+                  >
+                    Live Website
+                  </a>
+                  <a
+                    href="https://https://github.com/caroleatierney/Ashleighs-15-Minutes-of-Fame"
                     title="View Client Code"
                     target="_blank"
                   >
