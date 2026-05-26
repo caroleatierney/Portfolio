@@ -379,9 +379,9 @@ export default function BootCamp() {
               Marshfield Travel App
             </h3>
             <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
-              This was the final project. It is an app intended to be used by
-              Marshfield, MA vacationers to explore the beaches and all that
-              this South Shore Massachusetts vacation town has to offer.
+              This is an app intended to be used by Marshfield, MA vacationers
+              to explore all the beaches that this South Shore Massachusetts
+              vacation town has to offer.
             </p>
 
             {/* Main Div */}
@@ -430,8 +430,11 @@ export default function BootCamp() {
                         This app displays tide information from RapidAPI Tides
                       </li>
                       <li>
-                        Website and data are hosted on Heroku (?) - Need to
-                        figure this out - can you keep a backend?
+                        The website is hosted on Render and data is in
+                        PostgreSQL
+                      </li>
+                      <li>
+                        It uses NEON to modify and retrieve data from the database
                       </li>
                     </ul>
                   </div>
@@ -443,7 +446,7 @@ export default function BootCamp() {
                       <li>Bulma CSS Framework</li>
                       <li>JavaScript</li>
                       <li>PERN Stack</li>
-                      <li>Postgres</li>
+                      <li>PostgreSQL</li>
                       <li>Express</li>
                       <li>React</li>
                       <li>Node.JS</li>
@@ -452,7 +455,7 @@ export default function BootCamp() {
                       Room for improvement:
                     </h3>
                     <ul className="text-xs list-disc list-inside">
-                      <li>Figure out backend</li>
+                      <li>Add local restaurants</li>
                     </ul>
                   </div>
                 </div>
