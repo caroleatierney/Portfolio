@@ -560,10 +560,16 @@ export default function BootCamp() {
             <h3 className="text-md md:text-4xl text-center text-teal-600">
               Dinner Planner
             </h3>
-            <p class="project-description">
+            <p class="project-description text-center px-12">
               This application was designed to practice DOM manipulation, forms
-              and tables. It uses Bootstrap and can add and delete rows from the
+              and tables.
+            </p>
+            <p class="project-description text-center px-12">
+            It uses Bootstrap and can add and delete rows from the
               table. The data in the table is hard coded to populate.
+            </p>
+            <p class="project-description text-center px-12">
+              The data in the table is hard coded to populate.
             </p>
 
             {/* Main Div */}
