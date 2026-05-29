@@ -1,4 +1,5 @@
 import { HashRouter as BrowserRouter } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "../Components/Header";
 // import Home from "../Components/Home";
 import About from "../Components/About";
@@ -10,7 +11,7 @@ import "flowbite";
 
 export default function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="flex flex-col w-full mx-auto bg-gray-200 font-poppins">
         <div className="flex flex-col md:flex-row justify-center bg-slate-800 py-4">
           <div className="flex justify-center w-full md:w-1/4">
@@ -34,6 +35,6 @@ export default function App() {
 
         <Footer />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
