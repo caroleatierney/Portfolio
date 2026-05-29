@@ -666,7 +666,7 @@ export default function BootCamp() {
 
                 <div className="flex flex-row justify-evenly text-center text-xs my-3">
                   <a
-                    href="https://caroleatierney.github.io/Soap_Scents/"
+                    href="https://soap-scents.onrender.com/soap"
                     class="website-link"
                     title="View Live"
                     target="_blank"
@@ -674,7 +674,7 @@ export default function BootCamp() {
                     Live Website
                   </a>
                   <a
-                    href="https://soap-scents.onrender.com/soap"
+                    href="https://github.com/caroleatierney/Soap_Scents"
                     class="website-link"
                     title="View Code"
                     target="_blank"
@@ -694,10 +694,8 @@ export default function BootCamp() {
                       Notable features:
                     </h3>
                     <ul className="text-xs list-disc list-inside">
-                      <li>
-                        Website and data are hosted on Heroku - Need to figure
-                        this out - can you keep a backend?
-                      </li>
+                      <li>Website is hosted on Render</li>
+                      <li>Data is on MongoDB Atlas</li>
                       <li>Uses Google Maps</li>
                       <li>Social Icons link to websites</li>
                     </ul>
@@ -712,8 +710,8 @@ export default function BootCamp() {
                       <li>ExpressJS</li>
                       <li>Node.js</li>
                       <li>Mongoose</li>
-                      <li>EJS</li>
                       <li>Mongo DB</li>
+                      <li>EJS</li>
                       <li>CSS Grid</li>
                       <li>Full CRUD</li>
                       <li>7 RESTful Routes</li>
@@ -722,12 +720,8 @@ export default function BootCamp() {
                       Room for improvement:
                     </h3>
                     <ul className="text-xs list-disc list-inside">
-                      <li>Add a video</li>
                       <li>Lye to Water calculator</li>
-                      <li>Add personal Soap Page</li>
-                      <li>Ability to Purchase </li>
                       <li>Login</li>
-                      <li>It's ugly!</li>
                     </ul>
                   </div>
                 </div>
