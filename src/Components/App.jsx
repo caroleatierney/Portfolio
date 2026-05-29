@@ -1,3 +1,4 @@
+import { HashRouter as BrowserRouter } from "react-router-dom";
 import Header from "../Components/Header";
 // import Home from "../Components/Home";
 import About from "../Components/About";
@@ -5,7 +6,7 @@ import NavBar from "../Components/NavBar";
 import Projects from "../Components/Projects";
 import BootCamp from "../Components/BootCamp";
 import Footer from "../Components/Footer";
-import 'flowbite';
+import "flowbite";
 
 export default function App() {
   return (
@@ -24,7 +25,7 @@ export default function App() {
         <div className="bg-slate-200 ">
           <About />
         </div>
-        
+
         <Routes>
           {/* <Route path="/" element={<Home />} /> */}
           <Route path="/Projects" element={<Projects />} />
@@ -36,5 +37,3 @@ export default function App() {
     </Router>
   );
 }
-
-
