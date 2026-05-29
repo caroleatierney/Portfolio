@@ -434,7 +434,8 @@ export default function BootCamp() {
                         PostgreSQL
                       </li>
                       <li>
-                        It uses NEON to modify and retrieve data from the database
+                        It uses NEON to modify and retrieve data from the
+                        database
                       </li>
                     </ul>
                   </div>
@@ -565,8 +566,8 @@ export default function BootCamp() {
               and tables.
             </p>
             <p class="project-description text-center px-12">
-            It uses Bootstrap and can add and delete rows from the
-              table. The data in the table is hard coded to populate.
+              It uses Bootstrap and can add and delete rows from the table. The
+              data in the table is hard coded to populate.
             </p>
             <p class="project-description text-center px-12">
               The data in the table is hard coded to populate.
@@ -673,7 +674,7 @@ export default function BootCamp() {
                     Live Website
                   </a>
                   <a
-                    href="https://github.com/caroleatierney/Soap_Scents"
+                    href="https://soap-scents.onrender.com/soap"
                     class="website-link"
                     title="View Code"
                     target="_blank"
