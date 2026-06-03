@@ -644,7 +644,7 @@ export default function BootCamp() {
 
         <div className="bg-slate-600 border-8 border-slate-900 w-7/8 my-10 mx-auto">
           <div className="text-slate-300 my-5">
-            <h3 className="text-md md:text-4xl text-center text-green-600">
+            <h3 className="text-md md:text-4xl text-center text-fuchsia-100">
               Soap Recipe
             </h3>
             <p className="m-3 text-center text-xs md:text-lg p-2 md:w-3/4 mx-auto">
@@ -658,7 +658,7 @@ export default function BootCamp() {
               <div className="justify-center m-1 md:my-5 md:w-1/2 items-center">
                 <div className="w-full mx-auto">
                   <img
-                    className="w-full border-8 border-green-600 mx-auto h-full"
+                    className="w-full border-8 border-fuchsia-100 mx-auto h-full"
                     src={Soap}
                     alt={"Soap"}
                   />
