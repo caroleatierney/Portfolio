@@ -696,7 +696,6 @@ export default function BootCamp() {
                     <ul className="text-xs list-disc list-inside">
                       <li>Website is hosted on Render</li>
                       <li>Data is on MongoDB Atlas</li>
-                      <li>Uses Google Maps</li>
                       <li>Social Icons link to websites</li>
                     </ul>
                   </div>
