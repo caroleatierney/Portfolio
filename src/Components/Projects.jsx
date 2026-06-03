@@ -368,10 +368,12 @@ export default function Projects() {
                     <li>Smaller, better image</li>
                     <li>About me and contact words larger</li>
                     <li>About me page larger</li>
-                    <li>Ad a link to her resume</li>
+                    <li>Add a link to her resume</li>
                     <li>Search for other art work </li>
                     <li>Nana's sign</li>
                     <li>Sal's sign</li>
+                    <li>Nina's Pic</li>
+                    <li>Emily's dog sign</li>
                   </ul>
                 </div>
               </div>
@@ -463,7 +465,8 @@ export default function Projects() {
               Ashleigh's 15 Minutes of Fame
             </h3>
             <p className="m-3 text-center text-xs md:text-2xl p-2 md:w-3/4 mx-auto">
-              A friend of mine was on the Price Is Right when she was on Spring Break.
+              A friend of mine was on the Price Is Right when she was on Spring
+              Break.
             </p>
 
             {/* Main Div */}

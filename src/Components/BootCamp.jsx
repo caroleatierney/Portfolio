@@ -4,7 +4,7 @@ import Butterflies from "./../Assets/ButterfliesOfNewEngland.png";
 import Nina from "./../Assets/Nina.png";
 import Maggie from "./../Assets/MensSalon.jpeg";
 import Gene from "./../Assets/GeneShalit.png";
-import Soap from "./../Assets/SoapScents.png";
+import Soap from "./../Assets/SoapScents.jpeg";
 import MarshVegas from "./../Assets/MarshVegas.jpeg";
 import Planner from "./../Assets/DinnerPlanner.png";
 import TicTacToe from "./../Assets/TicTacToe.png";
